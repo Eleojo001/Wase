@@ -29,8 +29,8 @@ function Home() {
       <div className="mobile">
         <Navmobile/>
         <Mobilesecone/>
-        <Mobilesectwo/>
         <Mobilesecthree/>
+        <Mobilesectwo/>
         <Mobilefooter/>
       </div>
 

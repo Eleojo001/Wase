@@ -6,16 +6,27 @@ function Mobilesecone() {
     <div>
       <div className='MobileSectoneHolder'>
         <div className='mobileBanner'>
-          <img src='/sirinNoma.jpeg' alt='Banner' />
+          <div className='homegovt'>
+            <div className='mobilegovtholder'>
+              <div className='mobilegovtImg'>
+                <img src='/govt.jpeg' alt='' />
+              </div>
+              <div className='mobilegovtImg'>
+                <img src='/blankuser.webp' alt='' />
+              </div>
+            </div>
+          </div>
         </div>
         <div className='mobileSectoneDescrp'>
           <h1 style={{ color: 'white' }}>
-            Elevate Your Listening{' '}
-            <span style={{ color: '#ee2625' }}>Experience</span>
+            About Us <br />
+            <span style={{ color: '#ee2625' }}>
+              Wase Rock Broadcasting Network
+            </span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            ullam, omnis et nostrum iure ipsa.
+            Wase Rock Broadcasting Service is a diversified broadcasting
+            platform with holdings in Radio, Television among other businesses... <a href="/about">Read more</a>
           </p>
           <div className='mobileListenerBtn'>
             <button className='navlistenBtn'>
