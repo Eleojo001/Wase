@@ -29,7 +29,7 @@ function hide(e){
             </a>
           </li>
           <li>
-            <a href='/about' className='m-navlink'>
+            <a href='/about' className='navlink'>
               About us
             </a>
           </li>
