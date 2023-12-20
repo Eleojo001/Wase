@@ -12,7 +12,7 @@ function Mobilesecthree() {
         <div className='section3grid'>
           <div className='sec3card'>
             <div className='sec3cardimg'>
-              <img src='/Llimin.jpeg' alt='' />
+              <img src='/llimin.jpeg' alt='' />
             </div>
             <div className='sec3carddescp'>Llimin</div>
             <div className='sec3cardbtn'>
@@ -30,7 +30,7 @@ function Mobilesecthree() {
           </div>
           <div className='sec3card'>
             <div className='sec3cardimg'>
-              <img src='/Kasuwarwuse.jpeg' alt='' />
+              <img src='/kasuwarwuse.jpeg' alt='' />
             </div>
             <div className='sec3carddescp'>Kasuwarwuse</div>
             <div className='sec3cardbtn'>
