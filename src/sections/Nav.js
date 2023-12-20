@@ -20,11 +20,19 @@ function hide(e){
     <div>
       <div className='navContainer'>
         <div className='navLogo'>
-          <img src='/wasefmlogo.png' alt='site logo' />
+          <img src='/favicon.ico' alt='site logo' />
         </div>
         <div className='navCategories'>
-          <li>Home</li>
-          <li>About Us</li>
+          <li>
+            <a href='/' className='navlink'>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href='/about' className='m-navlink'>
+              About us
+            </a>
+          </li>
           <li className='service' onClick={(e) => hide(e)}>
             <div className='text'>Our Services</div>
             <div className='dropd'>

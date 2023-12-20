@@ -37,7 +37,9 @@ function Sectionthree() {
             <div className='cardIcon'>
               <PiTelevisionFill style={{ color: '#ee2625' }} />
             </div>
-            <h3 className='cardTitle' style={{ color: '#2a166f' }} >Television</h3>
+            <h3 className='cardTitle' style={{ color: '#2a166f' }}>
+              Television
+            </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Doloremque, exercitationem repudiandae commodi et asperiores
@@ -48,18 +50,21 @@ function Sectionthree() {
             <div className='cardIcon'>
               <GiNewspaper style={{ color: '#ee2625' }} />
             </div>
-            <h3 className='cardTitle' style={{ color: '#2a166f' }} >News</h3>
+            <h3 className='cardTitle' style={{ color: '#2a166f' }}>
+              News
+            </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque, exercitationem repudiandae commodi et asperiores
-              consectetur consequuntur!
+              "Our services are top notch with up-to-date insite on the latest
+              happenings within and outsie the country Nigeria"
             </p>
           </div>
           <div className='card'>
             <div className='cardIcon'>
               <BsWindowSidebar style={{ color: '#ee2625' }} />
             </div>
-            <h3 className='cardTitle' style={{ color: '#2a166f' }} >Programs</h3>
+            <h3 className='cardTitle' style={{ color: '#2a166f' }}>
+              Programs
+            </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Doloremque, exercitationem repudiandae commodi et asperiores
@@ -70,7 +75,9 @@ function Sectionthree() {
             <div className='cardIcon'>
               <MdCoPresent style={{ color: '#ee2625' }} />
             </div>
-            <h3 className='cardTitle' style={{ color: '#2a166f' }} >Presenters</h3>
+            <h3 className='cardTitle' style={{ color: '#2a166f' }}>
+              Presenters
+            </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Doloremque, exercitationem repudiandae commodi et asperiores
@@ -81,7 +88,9 @@ function Sectionthree() {
             <div className='cardIcon'>
               <FaPodcast style={{ color: '#ee2625' }} />
             </div>
-            <h3 className='cardTitle' style={{ color: '#2a166f' }} >Podcast</h3>
+            <h3 className='cardTitle' style={{ color: '#2a166f' }}>
+              Podcast
+            </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Doloremque, exercitationem repudiandae commodi et asperiores
