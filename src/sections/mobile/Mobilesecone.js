@@ -30,14 +30,14 @@ function Mobilesecone() {
             businesses... <a href='/about'>Read more</a>
           </p>
           <div className='mobileListenerBtn'>
-            <button className='navlistenBtn'>
-              <span className='text'>
-                <a href='/waserock_103.9'>Listen Live</a>
-              </span>
-              <span className='navlistIcon'>
-                <PiSpeakerSimpleHighFill style={{ color: '#ee2625' }} />
-              </span>
-            </button>
+            <a href='/waserock_103.9' className='listenlivebtn'>
+              <button className='navlistenBtn'>
+                <span className='text'>Listen Live</span>
+                <span className='navlistIcon'>
+                  <PiSpeakerSimpleHighFill style={{ color: '#ee2625' }} />
+                </span>
+              </button>
+            </a>
           </div>
         </div>
       </div>

@@ -322,6 +322,10 @@ padding: 100px;
   }
 
   /* section1 mobile */
+  .listenlivebtn{
+    color: white;
+    text-decoration: none;
+  }
   .MobileSectoneHolder{
     padding: 10px 50px 50px;
     background-color: #aea2dd;
@@ -509,7 +513,7 @@ text-align: center;
 }
 .radiomobile{
 width: 100%;
- height: 60vh;
+ height: 64vh;
 }
 .mobileHider{
   /* height: 70px; */
