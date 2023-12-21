@@ -10,7 +10,7 @@ function Mobilesectwo() {
   return (
     <div>
       <div className='MobilesectwoHolder'>
-        <h1 style={{ color: '#ee2625' }}>Programs</h1>
+        <h1 style={{ color: '#ee2625' }}>Programmes</h1>
         {/* <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam
           omnis, beatae vitae sapiente alias quam vero molestias tenetur unde.

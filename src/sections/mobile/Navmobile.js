@@ -34,11 +34,7 @@ function Navmobile() {
               </a>
             </li>
             <li>
-              <a
-                href='https://www.youtube.com/channel/UCHVdxwG2WGh15TQLLrsobOA'
-                className='m-navlink'
-                target='_blank'
-              >
+              <a href='/wase_rocktv' className='m-navlink'>
                 Wase Rock TV
               </a>
             </li>

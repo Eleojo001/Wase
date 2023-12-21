@@ -72,7 +72,7 @@ He stated that the Commissioner of Police has ordered the Divisional Police Offi
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/waserock_103.9' element={<MobileRadio />} />
-            {/* <Route path='/wase_rocktv' element={<MobileTv />} /> */}
+            { <Route path='/wase_rocktv' element={<MobileTv />} /> }
             <Route path='/wase_podcast' element={<Mobilepodcast />} />
             <Route path='/news/:id' element={<MobilenewsDetails />} />
           </Routes>

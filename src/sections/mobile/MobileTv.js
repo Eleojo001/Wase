@@ -9,13 +9,24 @@ function MobileTv() {
       <div className='mobiletvholder'>
         <div className='mobiletvstack'>
           <div className='mobiletvcard'>
-            <a href='#' className='mtvlink'>
+            <a
+              href='https://www.youtube.com/channel/UCHVdxwG2WGh15TQLLrsobOA'
+              target='_blank'
+              className='mtvlink'
+            >
               <div className='mtvimg'>
-                <img src='sirinNoma.jpeg' alt='' />
+                <iframe
+                  width='100%'
+                  height='100%'
+                  src='https://www.youtube.com/embed/byrALj63RRA?si=s-rP9D-d2TspJMny'
+                  title='YouTube video player'
+                  frameborder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                  allowfullscreen
+                ></iframe>
               </div>
               <div className='mtvtitle'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Commodi, est!
+                COTLA COMMITMENTS ONDO ADAMAWA CROSS RIVER STATES RESPECTIVELY
               </div>
             </a>
           </div>

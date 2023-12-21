@@ -26,11 +26,14 @@ function Mobilesecone() {
           </h1>
           <p>
             Wase Rock Broadcasting Service is a diversified broadcasting
-            platform with holdings in Radio, Television among other businesses... <a href="/about">Read more</a>
+            platform with holdings in Radio, Television among other
+            businesses... <a href='/about'>Read more</a>
           </p>
           <div className='mobileListenerBtn'>
             <button className='navlistenBtn'>
-              <span className='text'>Listen Live</span>
+              <span className='text'>
+                <a href='/waserock_103.9'>Listen Live</a>
+              </span>
               <span className='navlistIcon'>
                 <PiSpeakerSimpleHighFill style={{ color: '#ee2625' }} />
               </span>
