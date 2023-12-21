@@ -333,7 +333,7 @@ padding: 100px;
   .mobilegovtholder{
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 10px;
   padding: 30px 0px;
 }
 .mobilegovtImg{
@@ -500,7 +500,7 @@ text-align: center;
 .imageDesrip{
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   margin-bottom: 10px;
 }
 .imageDesrip img{
