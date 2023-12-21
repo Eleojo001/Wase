@@ -318,6 +318,7 @@ padding: 100px;
     right: 30px;
     border: 1px solid var(--blueBackground);
     border-radius: 5px;
+    z-index: 10000;
   }
 
   /* section1 mobile */
