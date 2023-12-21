@@ -12,7 +12,7 @@ function Mobilesecone() {
                 <img src='/govt.jpeg' alt='' />
               </div>
               <div className='mobilegovtImg'>
-                <img src='/blankuser.webp' alt='' />
+                <img src='/honorable.jpeg' alt='' />
               </div>
             </div>
           </div>

@@ -18,7 +18,7 @@ function About() {
                   <img src='/govt.jpeg' alt='' />
                 </div>
                 <div className='govtChair'>
-                  <img src='/blankuser.webp' alt='' />
+                  <img src='/honorable.jpeg' alt='' />
                 </div>
               </div>
             </div>
@@ -41,15 +41,13 @@ function About() {
               Our mission is to use broadcasting as a tool for unity, peace,
               growth and development. <br />
               <h1 className='headersFont'>Our Core Values</h1>
-                <li>Respect and value for local knowledge and innovations</li>
-                <li>Value for the environment and ecosystems</li>
-                <li>
-                  Professional, effective, and informed by relevant science
-                </li>
-                <li>Creative, flexible, and innovative</li>
-                <li>Sensitive to gender</li>
-                <li>Quality, equality, and ethics</li>
-                <li>Passion. </li>
+              <li>Respect and value for local knowledge and innovations</li>
+              <li>Value for the environment and ecosystems</li>
+              <li>Professional, effective, and informed by relevant science</li>
+              <li>Creative, flexible, and innovative</li>
+              <li>Sensitive to gender</li>
+              <li>Quality, equality, and ethics</li>
+              <li>Passion. </li>
             </p>
           </p>{' '}
         </div>
@@ -64,7 +62,7 @@ function About() {
               <img src='/govt.jpeg' alt='' />
             </div>
             <div className='imaged2'>
-              <img src='/blankuser.webp' alt='' />
+              <img src='/honorable.jpeg' alt='' />
             </div>
           </div>
           <p className='about-content'>
