@@ -470,6 +470,7 @@ text-align: center;
   background-color: white;
   display: flex;
   align-items: center;
+  font-size: 12px;
 }
 .mobileFooter li{
   list-style: none;
@@ -499,7 +500,7 @@ text-align: center;
  /* Radio section  */
 .mobileradiofooterholder{
  width: 100%;
- height: 300px;
+ height: 100vh;
  background-color: #000000; 
  display: flex;
  justify-content: center;
@@ -510,17 +511,7 @@ text-align: center;
   height: 150;
   object-fit: contain;
 }
-/* .mobile TV  */
-.mtvimg{
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
-}
-.mtvimg img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+
 
 /* Television section  */
 .mobiletvholder{
@@ -535,13 +526,25 @@ text-align: center;
   color: #000000;
 }
 .mtvimg{
-  width: 300px;
+  width: 100%;
   height: 200px;
+  overflow: hidden;
 }
 .mtvimg img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.mobilefooterholdertv{
+  padding: 10px 50px 0;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.termMobiletv li{
+  list-style: none;
 }
 
 /* Podcast channel */
