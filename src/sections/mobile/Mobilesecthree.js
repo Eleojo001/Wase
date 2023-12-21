@@ -1,6 +1,21 @@
-import React from 'react'
+import React,{useState, useEffect, useContext} from 'react'
+import { DataContext } from '../../App';
+import { Link } from 'react-router-dom';
 
 function Mobilesecthree() {
+  const category = useContext(DataContext)
+  const [section, setSection] = useState([])
+  const [data,setData] = useState([]);
+ const [visible, setVisible] = useState(4);
+
+  useEffect(()=>{
+    let feed = category.news;
+      setSection(feed);
+      console.log(feed);
+  },[])
+  const showMoreItem = () =>{
+    setVisible((previousValue) => previousValue + 4);
+  }
   return (
     <div>
       <div className='mobilesec3holder'>
@@ -10,33 +25,27 @@ function Mobilesecthree() {
           happenings within and outsie the country Nigeria"
         </p>
         <div className='section3grid'>
-          <div className='sec3card'>
-            <div className='sec3cardimg'>
-              <img src='/llimin.jpeg' alt='' />
-            </div>
-            <div className='sec3carddescp'>Llimin</div>
-            <div className='sec3cardbtn'>
-              <button className='sec3btn'>Read more</button>
-            </div>
-          </div>
-          <div className='sec3card'>
-            <div className='sec3cardimg'>
-              <img src='/dogarodakai.jpeg' alt='' />
-            </div>
-            <div className='sec3carddescp'>Dogarodakai</div>
-            <div className='sec3cardbtn'>
-              <button className='sec3btn'>Read more</button>
-            </div>
-          </div>
-          <div className='sec3card'>
-            <div className='sec3cardimg'>
-              <img src='/kasuwarwuse.jpeg' alt='' />
-            </div>
-            <div className='sec3carddescp'>Kasuwarwuse</div>
-            <div className='sec3cardbtn'>
-              <button className='sec3btn'>Read more</button>
-            </div>
-          </div>
+          {section.slice(0, visible).map((sec)=>{
+            return (
+              <div>
+                <Link
+                  to={`/news/${sec.id}`}
+                  key={sec.id}
+                  className='newlink'
+                >
+                  <div className='sec3card'>
+                    <div className='sec3cardimg'>
+                      <img src={sec.image} alt='' />
+                    </div>
+                    <div className='sec3carddescp'>{sec.title}</div>
+                    <div className='sec3cardbtn'>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            );
+          })}
+
         </div>
       </div>
     </div>

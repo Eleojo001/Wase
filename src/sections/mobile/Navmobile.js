@@ -17,7 +17,7 @@ function Navmobile() {
       <div className='navmobile'>
         <div className='mobileNavlogo'>
           <a href='/' className='m-navlink'>
-            <img src='favicon.ico' alt='Logo of the website' />
+            <img src='/favicon.ico' alt='Logo of the website' />
           </a>
         </div>
         <div className='mobileTogggle'>
@@ -34,7 +34,11 @@ function Navmobile() {
               </a>
             </li>
             <li>
-              <a href='/wase_rocktv' className='m-navlink'>
+              <a
+                href='https://www.youtube.com/channel/UCHVdxwG2WGh15TQLLrsobOA'
+                className='m-navlink'
+                target='_blank'
+              >
                 Wase Rock TV
               </a>
             </li>
