@@ -624,7 +624,20 @@ width: 100%;
   margin-bottom: 20px;
 }
 
+.m-dtailsBannerimage{
+  width: 100%;
+  height: 350px;
+  display: flex;
+align-items: center;
+justify-content: center;
+  overflow: hidden;
+}
+.m-dtailsBannerimage img{
+width: 100%;
+height: 100%;
+object-fit: contain;
 
+}
 
 
 }

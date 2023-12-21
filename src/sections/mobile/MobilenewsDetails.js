@@ -26,8 +26,8 @@ function MobilenewsDetails() {
                     {item.author} <BsDot size={'1rem'} />{' '}
                     <span>{item.date}</span>
                   </p>
-                  <div className='m-dtailsBanner'>
-                    <div className='m-imageHolder'></div>
+                  <div className='m-dtailsBannerimage'>
+                    
                     <img src={item.image} alt='' />
                   </div>
                   {item.content.split('\n').map((paragraph, index) => (
