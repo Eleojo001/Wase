@@ -20,10 +20,7 @@ function Mobilesecthree() {
     <div>
       <div className='mobilesec3holder'>
         <h1 style={{ color: '#ee2625' }}>News</h1>
-        <p className='sec3headerDescp'>
-          "Our services are top notch with up-to-date insite on the latest
-          happenings within and outsie the country Nigeria"
-        </p>
+        
         <div className='section3grid'>
           {section.slice(0, visible).map((sec)=>{
             return (
