@@ -23,7 +23,7 @@ function Home() {
       <Sectionone/>
       <Sectiontwo/>
       <Sectionthree/>
-      <SectionFour/>
+      {/* <SectionFour/> */}
       <SectionFive/>
       </div>
       <div className="mobile">

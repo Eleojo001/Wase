@@ -7,24 +7,36 @@ function Sectionone() {
       <div className='sectionOne'>
         <div className='sectionOneDescription'>
           <h1 style={{ color: 'white' }}>
-            Elevate Your Listening{' '}
-            <span style={{ color: '#ee2625' }}>Experience</span>
+            About Us <br />
+            <span style={{ color: '#ee2625' }}>
+              Wase Rock Broadcasting Network
+            </span>
           </h1>
           <p>
-            Tune in to our dedicated Agricultural FM Channel, where we bring you
-            the latest insight, trends and innovations, in the farming and
-            agricultural industry
+            Wase Rock Broadcasting Service is a diversified broadcasting
+            platform with holdings in Radio, Television among other
+            businesses... <a href='/about'>Read more</a>
           </p>
 
-          <button className='navlistenBtn'>
-            <span className='text'>Listen Live</span>
-            <span className='navlistIcon'>
-              <PiSpeakerSimpleHighFill style={{ color: '#ee2625' }} />
-            </span>
-          </button>
+          <a href='/waserock_103.9' className='listenlivebtn'>
+            <button className='navlistenBtn'>
+              <span className='text'>Listen Live</span>
+              <span className='navlistIcon'>
+                <PiSpeakerSimpleHighFill style={{ color: '#ee2625' }} />
+              </span>
+            </button>
+          </a>
         </div>
         <div className='sectionOneaImg'>
-          <img src='/sirinNoma.jpeg' alt='' />
+          <div className='homefleximg'>
+            <div className='govtimg'>
+              <img src='/govt.jpeg' alt='' />
+            </div>
+            <div className='honorimg'>
+              <img src='/honorable.jpeg' alt='' />
+            </div>
+          </div>
+          {/* <img src='/sirinNoma.jpeg' alt='' /> */}
         </div>
       </div>
     </div>

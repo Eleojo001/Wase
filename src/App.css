@@ -123,31 +123,63 @@ button{
   padding-bottom: 40px;
 }
 
-.sectionOneaImg img{
-  width: 550px;
-  height: auto;
+
+.sectionOneaImg{
+  /* width: 550px; */
   align-items: center;
+  row-gap: 20px;
+  width: 100%;
 }
+.homefleximg{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  height: 300px;
+}
+
+.govtimg img, .honorimg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sectionOneaImg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 
 /* sectionTwo  */
 .sectionTwoholder{
   padding: 60px 100px;
 }
-.sectionTwoholder P{
+.sectionTwoholder h1{
   text-align: center;
 }
-.socialProofSec{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'Tangerine', cursive;
+.desktopNewsGrid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 20px 0px;
 }
-.socialProofSec li{
+.ncdimg{
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.ncdimg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.viewmorebtn{
   display: flex;
-  text-decoration: none;
-  column-gap: 10px;
-  font-size: 30px;
-  padding-top: 40px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Section Three  */
@@ -156,9 +188,28 @@ button{
   padding: 100px;
   background-color: rgb(244, 241, 239);
 }
+
 .sectionThreeHolder h1, .sectionThreeHolder P{
   text-align: center;
 }
+.desktopprogramGrid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 20px 0px;
+}
+.pcdimg{
+  width: 100%;
+  height: 270px;
+  margin-bottom: 10px;
+}
+
+.pcdimg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .cardIcon{
   width: 50px;
   height: 50px;

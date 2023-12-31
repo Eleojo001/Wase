@@ -14,8 +14,23 @@ function App() {
     {
       id: '1',
       category: 'News',
+      title: `HON.HAMISU MOHAMMED ANANI TRANSITION IMPLEMENTATION COMMITTEE CHAIRMAN OF WASE LGC,ALGON CHAIRMAN OF PLATEAU STATE CHAPTER FLAGS OFF THE DISTRIBUTION OF FERTILIZER TO FARMERS IN WASE LOCAL GOVERNMENT COUNCIL
+`,
+      author: `Musab Imamuddeen`,
+      content: `Wase Local government council under the leadership of Hon. Hamisu Anani has commenced the distribution of 3 trucks assorted fertilizers acquired by the executive governor of plateau state His Excellency Barr. Caleb Manaseh Mutfawang for plateau farmers across the 17 local government council in the state for dry season farming. \n
+The TIC chairman informed the people of wase local government the  readiness of the executive governor of plateau state to invest more on agriculture, he said  agriculture is the backbone of the economy and is the major source of livelihood to significant portion of the population, Governor Mutfwang administration will continue to invest in the sector to ensure food security, economic growth and poverty alleviation in the state. \n
+Hon. Anani thanked NG CARES for their immense efforts in supporting plateau state agricultural development.\n
+The representative of the program manager plateau state agricultural development programme laud the efforts of the transition chairman of wase for his remarkable gesture by providing trucks of fertilizer to his local government council at subsidize rate few months ago describing it as the first of its kind ever recorded, the programme manager also urged the wase local government farmers to use the fertilizer to boost the yield of their crops and not resell them, 
+because the TIC chairman have brief them about wase local in terms of agriculture, that was local  government is blessed with fertile land, a dedicate and hard-working farmers, a home of agriculture it is also in record that thousands of trucks loaded with farm products  were dispatched across the country from wase local government every year.
+`,
+      date: '26th December, 2023',
+      image: '/anani.jpeg',
+    },
+    {
+      id: '2',
+      category: 'News',
       title:
-        'TRANSITION COMMITTEE CHAIRMEN IN PLATEAU CONDEMNS  ATTACKS IN PLATEAU COMMUNITIES, CALLS FOR ARREST OF PERPETRATORS',
+        'TRANSITION COMMITTEE CHAIRMEN IN PLATEAU CONDEMN  ATTACKS IN PLATEAU COMMUNITIES, CALL FOR ARREST OF PERPETRATORS',
       author:
         'Hamisu Anani . Transition Committee chairman wase and plateau state ALGON Chairman',
       content: `Transition committee chairmen across the seventeen local government areas of plateau state  has condemn in strong terms the recent coordinated attacks on innocent citizens in some communities in Bokkos, Mangu, and Barkin-Ladi Local Government Areas of the state saying  these attacks were unprovoked and  have resulted in the tragic loss of several lives and  destruction of property. \n
@@ -37,7 +52,7 @@ function App() {
       image: '/himisu.jpeg',
     },
     {
-      id: '2',
+      id: '3',
       category: 'News',
       title:
         'FREE CHRISTMAS TRIP TO ALL LGA HQs COMMENCES TOMMORROW BY GOVERNOR CALEB MANASEH MUTFAWANG',
@@ -50,7 +65,7 @@ The free ride will commence on Saturday 23/12/2023 and end on  Wednesday 26/12/2
       image: '/freetp.webp',
     },
     {
-      id: '3',
+      id: '4',
       category: 'News',
       title:
         'Plateau Muslim community backs Gov Muftwang, dismisses rumoured marginalisation',
@@ -70,7 +85,7 @@ The free ride will commence on Saturday 23/12/2023 and end on  Wednesday 26/12/2
       image: '/muslim.jpeg',
     },
     {
-      id: '4',
+      id: '5',
       category: 'News',
       title: 'Gov. Mutfwang signs 2024 Appropriation Bill into law',
       author: 'Agency Reporter',
@@ -87,7 +102,7 @@ The free ride will commence on Saturday 23/12/2023 and end on  Wednesday 26/12/2
       image: '/govtbill.png',
     },
     {
-      id: '5',
+      id: '6',
       category: 'News',
       title: 'Police rescue abducted Plateau pastor, three others in Bauchi',
       author: 'Agency Reporter',
@@ -102,15 +117,67 @@ He stated that the Commissioner of Police has ordered the Divisional Police Offi
       image: '/policeLogo.jpeg',
     },
   ]);
+
+  const [programmes, setProgrammes] = useState([
+    {
+      id: '1',
+      category: 'programmes',
+      title: 'Sirin Noma',
+      content: ``,
+      date: '26th December, 2023',
+      image: '/sirinNoma.jpeg',
+    },
+    {
+      id: '2',
+      category: 'programmes',
+      title: 'Ilimin Kasuwanci',
+      content: ``,
+      date: '26th December, 2023',
+      image: '/llimin.jpeg',
+    },
+    {
+      id: '3',
+      category: 'programmes',
+      title: 'Dogaro da Kai',
+      content: ``,
+      date: '26th December, 2023',
+      image: '/dogarodakai.jpeg',
+    },
+    {
+      id: '4',
+      category: 'programmes',
+      title: 'Kasuwar Wase',
+      content: ``,
+      date: '26th December, 2023',
+      image: '/kasuwarwuse.jpeg',
+    },
+    {
+      id: '5',
+      category: 'programmes',
+      title: 'Siyasa ba Gaba ba',
+      content: ``,
+      date: '26th December, 2023',
+      image: '/siyasa.jpeg',
+    },
+    {
+      id: '6',
+      category: 'programmes',
+      title: 'Kacici Kacici',
+      content: ``,
+      date: '26th December, 2023',
+      image: '/kacici.jpeg',
+    },
+  ]);
+
   return (
     <div className='App'>
       <BrowserRouter>
-        <DataContext.Provider value={{ news }}>
+        <DataContext.Provider value={{ news, programmes }}>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/waserock_103.9' element={<MobileRadio />} />
-            { <Route path='/wase_rocktv' element={<MobileTv />} /> }
+            {<Route path='/wase_rocktv' element={<MobileTv />} />}
             <Route path='/wase_podcast' element={<Mobilepodcast />} />
             <Route path='/news/:id' element={<MobilenewsDetails />} />
           </Routes>
