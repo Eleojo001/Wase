@@ -12,18 +12,45 @@ export const DataContext = React.createContext();
 function App() {
   const [news, setNews] = useState([
     {
+      id: '7',
+      category: 'News',
+      title: `THE TIC CHAIRMAN OF WASE LGC, HON. HAMISU ANANI WHO WAS ABLY REPRESENTED BY THE DIRECTOR OF SOCIAL SERVICE WASE LGA HAVE FLAGGED OFF THE DISTRIBUTION OF RELIEF MATERIALS TO A CROSS SECTION OF THOSE AFFECTED BY DISASTER WITHIN THE LOCALITY MONTHS AGO.
+  `,
+      author: `Musab Imamuddeen`,
+      content: `The Director of social service of wase LGA on behalf of the TIC chairman of wase LGC Hon. Hamisu Anani today flagged of the distribution of relief materials worth millions donated by the Federal Government through the National Emergency Management Agency (NEMA).\n
+
+The Chairman expressed his appreciation for the singular gesture shown to alleviate the plight of people affected by different degrees of disaster (flood, wind storm) that happened months back within the LGA. \n
+In his remark, he called on the beneficiaries to make proper use of the items collected and not to sell it, as the government will frown at such.\n
+
+Items distributed includes sewing machines, water pumps, grinding machines, mattresses, cooking utensils, blankets, pots of different sizes, seedlings, food items, mats, knapsack sprayer, liquid fertiliser, etc.\n
+  `,
+      date: '26th December, 2023',
+      image: '/tic1.jpeg',
+      images: [
+        { pic: '/tic1.jpeg' },
+        { pic: '/tic2.jpeg' },
+        { pic: '/tic3.jpeg' },
+        { pic: '/tic4.jpeg' },
+      ],
+    },
+    {
       id: '1',
       category: 'News',
       title: `HON.HAMISU MOHAMMED ANANI TRANSITION IMPLEMENTATION COMMITTEE CHAIRMAN OF WASE LGC,ALGON CHAIRMAN OF PLATEAU STATE CHAPTER FLAGS OFF THE DISTRIBUTION OF FERTILIZER TO FARMERS IN WASE LOCAL GOVERNMENT COUNCIL
-`,
+  `,
       author: `Musab Imamuddeen`,
       content: `Wase Local government council under the leadership of Hon. Hamisu Anani has commenced the distribution of 3 trucks assorted fertilizers acquired by the executive governor of plateau state His Excellency Barr. Caleb Manaseh Mutfawang for plateau farmers across the 17 local government council in the state for dry season farming. \n
-The TIC chairman informed the people of wase local government the  readiness of the executive governor of plateau state to invest more on agriculture, he said  agriculture is the backbone of the economy and is the major source of livelihood to significant portion of the population, Governor Mutfwang administration will continue to invest in the sector to ensure food security, economic growth and poverty alleviation in the state. \n
-Hon. Anani thanked NG CARES for their immense efforts in supporting plateau state agricultural development.\n
-The representative of the program manager plateau state agricultural development programme laud the efforts of the transition chairman of wase for his remarkable gesture by providing trucks of fertilizer to his local government council at subsidize rate few months ago describing it as the first of its kind ever recorded, the programme manager also urged the wase local government farmers to use the fertilizer to boost the yield of their crops and not resell them, 
-because the TIC chairman have brief them about wase local in terms of agriculture, that was local  government is blessed with fertile land, a dedicate and hard-working farmers, a home of agriculture it is also in record that thousands of trucks loaded with farm products  were dispatched across the country from wase local government every year.
-`,
+  The TIC chairman informed the people of wase local government the  readiness of the executive governor of plateau state to invest more on agriculture, he said  agriculture is the backbone of the economy and is the major source of livelihood to significant portion of the population, Governor Mutfwang administration will continue to invest in the sector to ensure food security, economic growth and poverty alleviation in the state. \n
+  Hon. Anani thanked NG CARES for their immense efforts in supporting plateau state agricultural development.\n
+  The representative of the program manager plateau state agricultural development programme laud the efforts of the transition chairman of wase for his remarkable gesture by providing trucks of fertilizer to his local government council at subsidize rate few months ago describing it as the first of its kind ever recorded, the programme manager also urged the wase local government farmers to use the fertilizer to boost the yield of their crops and not resell them, 
+  because the TIC chairman have brief them about wase local in terms of agriculture, that was local  government is blessed with fertile land, a dedicate and hard-working farmers, a home of agriculture it is also in record that thousands of trucks loaded with farm products  were dispatched across the country from wase local government every year.
+  `,
       date: '26th December, 2023',
+      images: [
+        { pic: '/anani.jpeg' },
+        { pic: '/anani1.jpeg' },
+        { pic: '/anani4.jpeg' },
+      ],
       image: '/anani.jpeg',
     },
     {

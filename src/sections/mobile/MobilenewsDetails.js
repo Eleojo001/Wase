@@ -26,9 +26,24 @@ function MobilenewsDetails() {
                     {item.author} <BsDot size={'1rem'} />{' '}
                     <span>{item.date}</span>
                   </p>
-                  <div className='m-dtailsBannerimage'>
-                    
-                    <img src={item.image} alt='' />
+                  <div className='newdimagcontainer'>
+                    <div className='m-dtailsBannerimage'>
+                      {item.images.map((pic, index) => {
+                        return (
+                          <div className='nwsdcarddet'>
+                            <div className='mdbannerimg'>
+                              <img src={pic.pic} key={index} alt='' />
+                            </div>
+                          </div>
+                        );
+                      })}
+                      
+                      {/* <div className='nwsdcarddet'>
+                        <div className='mdbannerimg'>
+                          <img src={item.image} alt='' />
+                        </div>
+                      </div> */}
+                    </div>
                   </div>
                   {item.content.split('\n').map((paragraph, index) => (
                     <p
