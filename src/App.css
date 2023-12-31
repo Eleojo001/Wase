@@ -616,6 +616,10 @@ width: 100%;
 .mobiletvstack{
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+.mtvtitle{
+  text-transform: uppercase;
 }
 .mtvlink{
   text-decoration: none;
