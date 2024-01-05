@@ -76,6 +76,7 @@ Items distributed includes sewing machines, water pumps, grinding machines, matt
 
 “With this background, we want to state categorically that Gov. Caleb Muftwang is a unifier. That’s the reason we want to air our view about Muftwang and tell the world about his appointments and achievements with the Muslim community in Plateau State.`,
       date: '26th December, 2023',
+      images: [{ pic: '/himisu.jpeg' }],
       image: '/himisu.jpeg',
     },
     {
@@ -89,6 +90,7 @@ The pickup station is plateau polytechnic  Jos to the various local government H
 The free ride will commence on Saturday 23/12/2023 and end on  Wednesday 26/12/2023
 `,
       date: 'DECEMBER 26, 2023',
+      images: [{ pic: '/freetp.webp' }],
       image: '/freetp.webp',
     },
     {
@@ -109,6 +111,7 @@ The free ride will commence on Saturday 23/12/2023 and end on  Wednesday 26/12/2
 
 “With this background, we want to state categorically that Gov. Caleb Muftwang is a unifier. That’s the reason we want to air our view about Muftwang and tell the world about his appointments and achievements with the Muslim community in Plateau State.`,
       date: 'FEBRUARY 23, 2023',
+      images: [{ pic: '/muslim.jpeg' }],
       image: '/muslim.jpeg',
     },
     {
@@ -126,6 +129,7 @@ The free ride will commence on Saturday 23/12/2023 and end on  Wednesday 26/12/2
 
         “We encountered a state of neglect in critical sectors and we are determined to lay a new foundation for a sustainable, excellent, and value-adding future.\n He expressed optimism that the budget implementation would improve the living conditions of the people and urged citizens to support the government for continued progress.`,
       date: 'FEBRUARY 23, 2023',
+      images: [{ pic: '/govtbill.png' }],
       image: '/govtbill.png',
     },
     {
@@ -141,6 +145,7 @@ Wakil said  the bandits had stormed the house of one Yakubu Makeri, of Yagi vill
 
 He stated that the Commissioner of Police has ordered the Divisional Police Officer to intensify wider patrol across the  area in a bid to arrest the fleeing bandits so they can face the full wrath of the law.`,
       date: 'FEBRUARY 23, 2023',
+      images: [{ pic: '/policeLogo.jpeg' }],
       image: '/policeLogo.jpeg',
     },
   ]);

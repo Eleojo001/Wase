@@ -29,7 +29,10 @@ function Sectiontwo() {
                 <Link to={`/news/${data.id}`} key={data.id} className='newlink'>
                   <div className='newscardD'>
                     <div className='ncdimg'>
-                      <img src={data.image} alt='' />
+                      {/* <img src={data.image} alt='' /> */}
+                      {data.images.slice(0, 2).map((pic) => {
+                        return <img src={pic.pic} alt='' />;
+                      })}
                     </div>
                     <div className='ncdTitle'>{data.title}</div>
                   </div>
