@@ -12,6 +12,31 @@ export const DataContext = React.createContext();
 function App() {
   const [news, setNews] = useState([
     {
+      id: '8',
+      category: 'News',
+      title: `Breaking: Supreme Court reinstates Plateau State Governor, His Excellency Gov. Caleb Mutfwang`,
+      author: ``,
+      content: `The Supreme Court has upheld the election of Plateau State Governor, Caleb Mutfwang. \n
+
+Muftwang’s victory at the March 18, 2023 poll was upheld by the State Governorship Election Petitions Tribunal in Jos but the appeal court overturned the lower court’s victory declaring Nentawe Goshwe of the All Progressives Congress the winner of the election. \n
+
+Reading the judgment of the apex court on Friday, Justice Emmanuel Agim held that the APC and its candidate are not members of the PDP and cannot challenge the primary election of the PDP. \n
+
+Agim noted that the petition of the APC in the first place was an abuse of the court process and faulted the appeal court for sacking the governor. \n
+
+He said, “The petition by the APC and its candidates are abuse of the court process. \n
+
+“I wonder why the matter came to court at all. This appeal is allowed.” \n
+
+“My worry is that a lot of people have suffered as a result of this,” Justice John Okoro said while agreeing with the lead judgment. \n
+  `,
+      date: '12th January, 2024',
+      image: '/govtVictory.jpeg',
+      images: [
+        { pic: '/govtVictory.jpeg' },
+      ],
+    },
+    {
       id: '7',
       category: 'News',
       title: `THE TIC CHAIRMAN OF WASE LGC, HON. HAMISU ANANI WHO WAS ABLY REPRESENTED BY THE DIRECTOR OF SOCIAL SERVICE WASE LGA HAVE FLAGGED OFF THE DISTRIBUTION OF RELIEF MATERIALS TO A CROSS SECTION OF THOSE AFFECTED BY DISASTER WITHIN THE LOCALITY MONTHS AGO.

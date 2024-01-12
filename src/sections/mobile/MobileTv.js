@@ -10,6 +10,29 @@ function MobileTv() {
         <div className='mobiletvstack'>
           <div className='mobiletvcard'>
             <a
+              href='https://youtu.be/B-DzSIUiitU?si=i2k__YC5m44S9Co0'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'>
+                <iframe
+                  width='100%'
+                  height='100%'
+                  src='https://www.youtube.com/embed/B-DzSIUiitU?si=9uyPL2-OhpZJq2Ag'
+                  title='YouTube video player'
+                  frameborder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div className='mtvtitle'>
+                Celebrations across Plateau State over Governor Mutfwang's
+                victory at the Supreme Court today
+              </div>
+            </a>
+          </div>
+          <div className='mobiletvcard'>
+            <a
               href='https://www.youtube.com/channel/UCHVdxwG2WGh15TQLLrsobOA'
               target='_blank'
               className='mtvlink'
