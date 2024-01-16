@@ -12,29 +12,24 @@ export const DataContext = React.createContext();
 function App() {
   const [news, setNews] = useState([
     {
+      id: '9',
+      category: 'News',
+      title: `CHAIRMAN WASE LGA AND ALGON CHAIRMAN PLATEAU STATE HAMISU ANANI CONGRATULATES GOV.  CALEB MUTFWANG OVER VICTORY AT THE SUPREME COURT, SAYS VICTORY IS DESERVING`,
+      author: ``,
+      content: `The Supreme Court has upheld the election of Plateau State Governor, Caleb Mutfwang. \n`,
+      date: '16th January, 2024',
+      image: '/jan16th.jpeg',
+      images: [{ pic: '/jan16th.jpeg' }],
+    },
+    {
       id: '8',
       category: 'News',
       title: `Breaking: Supreme Court reinstates Plateau State Governor, His Excellency Gov. Caleb Mutfwang`,
       author: ``,
-      content: `The Supreme Court has upheld the election of Plateau State Governor, Caleb Mutfwang. \n
-
-Muftwang’s victory at the March 18, 2023 poll was upheld by the State Governorship Election Petitions Tribunal in Jos but the appeal court overturned the lower court’s victory declaring Nentawe Goshwe of the All Progressives Congress the winner of the election. \n
-
-Reading the judgment of the apex court on Friday, Justice Emmanuel Agim held that the APC and its candidate are not members of the PDP and cannot challenge the primary election of the PDP. \n
-
-Agim noted that the petition of the APC in the first place was an abuse of the court process and faulted the appeal court for sacking the governor. \n
-
-He said, “The petition by the APC and its candidates are abuse of the court process. \n
-
-“I wonder why the matter came to court at all. This appeal is allowed.” \n
-
-“My worry is that a lot of people have suffered as a result of this,” Justice John Okoro said while agreeing with the lead judgment. \n
-  `,
+      content: `Chairman, Wase Local Government Area and ALGON Chairman Plateau State, Hamisu Anani, Congratulates His Excellency, Governor Caleb Mutfwan over his victory at the Supreme Court.\n This is coming as Anani in an interview with news men revealed that Gov. Mutfwang's victory is deserving and further reaffirms and validates the love by the good people of Plateau State for Gov. Mutfwang and the People's Democratic Party, PDP as their Popular Choice. \n`,
       date: '12th January, 2024',
       image: '/govtVictory.jpeg',
-      images: [
-        { pic: '/govtVictory.jpeg' },
-      ],
+      images: [{ pic: '/govtVictory.jpeg' }],
     },
     {
       id: '7',

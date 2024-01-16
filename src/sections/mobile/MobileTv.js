@@ -10,6 +10,55 @@ function MobileTv() {
         <div className='mobiletvstack'>
           <div className='mobiletvcard'>
             <a
+              href='https://youtu.be/ZQhzYqUWMX0?si=7Hxa5-pcqvXSA0Kd'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'>
+                <iframe
+                  width='100%'
+                  height='100%'
+                  src='https://www.youtube.com/embed/ZQhzYqUWMX0?si=JAKkhpWTSr2F40be'
+                  title='YouTube video player'
+                  frameborder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div className='mtvtitle'>
+                Rousing Homecoming of Gov. Caleb Mutfwang_the People's Governor,
+                after Victory at Supreme Court
+              </div>
+            </a>
+          </div>
+          <div className='mobiletvcard'>
+            <a
+              href='https://youtu.be/kljuSv8xf9A?si=2O4JNQo8Y-akntT1'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'>
+                <iframe
+                  width='100%'
+                  height='100%'
+                  src='https://www.youtube.com/embed/kljuSv8xf9A?si=2AOwfLhtfqgOZa49'
+                  title='YouTube video player'
+                  frameborder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div className='mtvtitle'>
+                Jubilation in Plateau State over Gov. Caleb Mutfwang's triump at
+                the Supreme Court as Wase LGA Chairman, Hamisu and ALGON
+                Chairman, Hamisu Anani Congratulates His Excellency on a victory
+                well deserving and a clear validation of love by the good people
+                of Plateau State.
+              </div>
+            </a>
+          </div>
+          <div className='mobiletvcard'>
+            <a
               href='https://youtu.be/B-DzSIUiitU?si=i2k__YC5m44S9Co0'
               target='_blank'
               className='mtvlink'
