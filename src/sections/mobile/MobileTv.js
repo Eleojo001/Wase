@@ -49,11 +49,8 @@ function MobileTv() {
                 ></iframe>
               </div>
               <div className='mtvtitle'>
-                Jubilation in Plateau State over Gov. Caleb Mutfwang's triump at
-                the Supreme Court as Wase LGA Chairman, Hamisu and ALGON
-                Chairman, Hamisu Anani Congratulates His Excellency on a victory
-                well deserving and a clear validation of love by the good people
-                of Plateau State.
+                Jubilation in Plateau State over Gov. Caleb Mutfwang's
+                victory!!!
               </div>
             </a>
           </div>
