@@ -352,6 +352,10 @@ padding: 100px;
     width: 50px;
     height: auto;
   }
+  .menuIcon{
+    width: 40px;
+    height: auto;
+  }
   .dropDownMenuM{
     display: none;
   }

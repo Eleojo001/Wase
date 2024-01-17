@@ -16,7 +16,7 @@ function App() {
       category: 'News',
       title: `CHAIRMAN WASE LGA AND ALGON CHAIRMAN PLATEAU STATE HAMISU ANANI CONGRATULATES GOV.  CALEB MUTFWANG OVER VICTORY AT THE SUPREME COURT, SAYS VICTORY IS DESERVING`,
       author: ``,
-      content: `The Supreme Court has upheld the election of Plateau State Governor, Caleb Mutfwang. \n`,
+      content: `Chairman, Wase Local Government Area and ALGON Chairman Plateau State, Hamisu Anani, Congratulates His Excellency, Governor Caleb Mutfwan over his victory at the Supreme Court. \n This is coming as Anani in an interview with news men revealed that Gov. Mutfwang's victory is deserving and further reaffirms and validates the love by the good people of Plateau State for Gov. Mutfwang and the People's Democratic Party, PDP as their Popular Choice. \n`,
       date: '16th January, 2024',
       image: '/jan16th.jpeg',
       images: [{ pic: '/jan16th.jpeg' }],

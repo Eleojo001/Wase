@@ -21,7 +21,7 @@ function Navmobile() {
           </a>
         </div>
         <div className='mobileTogggle'>
-          <TiThMenu onClick={(e) => Mobilehide(e)} />
+          <TiThMenu className='menuIcon'  onClick={(e) => Mobilehide(e)} />
           <div className={active}>
             <li>
               <a href='/' className='m-navlink'>
