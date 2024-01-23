@@ -12,6 +12,38 @@ export const DataContext = React.createContext();
 function App() {
   const [news, setNews] = useState([
     {
+      id: '10',
+      category: 'News',
+      title: `PLATEAU CELEBRATES GOVERNOR MUTFWANG'S VICTORY IN THE POLLS AND THE SUPREME COURT IN SOLEMN THANKSGIVING`,
+      author: `Gyang Bere.  
+Director of Press and Public Affairs to the Executive Governor of Plateau State`,
+      content: `Plateau State, on Sunday stood still in solemn praise and thanksgiving to the Almighty God for Governor Caleb Manasseh Mutfwang's triumph in the polls and the subsequent Supreme Court victory.\n
+
+Expressing profound gratitude to God Almighty during the Interdenominational Thanksgiving Service at the Rwang Pam Township Stadium, Jos, Governor Mutfwang attributed his success to divine intervention and dedicated the triumph to both God and the people of Plateau State. \n
+
+He acknowledged with profound gratitude the overwhelming mandate received in the March 18, 2023 polls, and commended the fairness of the justices of the Supreme Court. The Governor also expressed gratitude to President Bola Ahmed Tinubu for his unwavering support for democracy.\n
+
+Amidst cheers from the crowd, Governor Mutfwang extended appreciation to the Media and Nigerians for amplifying the voice of Plateau people throughout the judicial process. He reassured the public that, with divine assistance, he is committed to fulfilling the expectations placed upon him.\n
+
+Governor Mutfwang reflected on the challenges faced during the political journey, expressing moments of doubt but holding onto faith. He emphasized the significance of the victory, marking a new beginning for Plateau State and pledging to lead the state to new heights with the support of the people.\n
+
+He said,  "I want to give thanks to God Almighty, the one who knows how to enthrone kings and how to dethrone kings. I thank God for the privilege he has given me; he singled me out for this honour. I want to thank you, Plateau people for agreeing with God and voting me joyfully without any inducement."\n
+
+He added that the victory marks a new beginning of the fulfillment of the promises he made, promising that by the grace of God he will not fail the people. \n
+
+Former Governor of Adamawa State, Boni Haruna, and other dignitaries including former Military Governor of Plateau State, Major General Lawrence Onoja, Emeka Etiaba SAN, the Gbong Gwom Jos, Da Jacob Buba, former Governor Jonah Jang, the State Chairman, Christian Association of Nigeria, CAN, Rev. Fr. Polycarp Lubo echoed messages of prayer and support for the Governor's mission to build a united and prosperous state. \n
+
+President of the Pentecostal Fellowship of Nigeria, Bishop Francis Oke, in his sermon, drew inspiration from biblical passages, assuring that God would make everything new in all spheres of the State.\n
+
+The event witnessed special prayers, song ministrations, and praises from various church groups, emphasizing the cleansing, healing, and restoration of Plateau. Notable figures such as the Speaker of the Plateau  State House of Assembly, Rt. Hon. Gabriel Dewan, Chief Judge of Plateau State, Justice David Mann, Plateau State PDP Chairman, Hon. Chris Hassan, Chief of Staff Government House Jos, Engr. Jeremiah Satmak, former Senate  Minority Leader, Sen. Simon Mwadkon, Sen. Hezekiah Dimka, General Martin Luther Agwai, Commissioners, top government functionaries among others graced the occasion.\n
+
+In a vote of thanks, the Secretary of the Government of the State, Arc. Samuel Jatau, expressed gratitude for the successful event, where Governor Mutfwang appointed a renowned music artiste Ezra Jinang as the Senior Special Adviser on Creativity and Entertainment.
+ \n`,
+      date: '21st January 2024.',
+      image: '/governor-celebrates.jpeg',
+      images: [{ pic: '/governor-celebrates.jpeg' }],
+    },
+    {
       id: '9',
       category: 'News',
       title: `CHAIRMAN WASE LGA AND ALGON CHAIRMAN PLATEAU STATE HAMISU ANANI CONGRATULATES GOV.  CALEB MUTFWANG OVER VICTORY AT THE SUPREME COURT, SAYS VICTORY IS DESERVING`,
