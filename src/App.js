@@ -12,18 +12,16 @@ export const DataContext = React.createContext();
 function App() {
   const [news, setNews] = useState([
     {
-      id: '10',
+      id: '11',
       category: 'News',
       title: `GOVERNOR MUTFWANG VISITS MANGU LG TO COMMISERATE WITH THE VICTIMS OF THE RECENT ATTACK`,
-      author: `Gyang Bere.  
-Director of Press and Public Affairs to the Executive Governor of Plateau State`,
+      author: ``,
       content: `Plateau state governor, His Excellency, Gov. Caleb Mutfwang visits  Mangu Local Government to commiserate & sympathize with victims of the recent attack in Mangu. \n
-
 The visit is to also take an on the spot assessment of the level of destruction and ascertain the level of damages in a bid to provide immediate and permanent solutions to the continuous attacks on innocent citizens. \n
 
 God bless Gov. Mutfwang, God bless Plateau state, God bless Nigeria!
  \n`,
-      date: '21st January 2024.',
+      date: '27st January 2024.',
       image: '/mangu.jpeg',
       images: [{ pic: '/mangu.jpeg' }],
     },
