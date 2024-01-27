@@ -21,7 +21,7 @@ The visit is to also take an on the spot assessment of the level of destruction 
 
 God bless Gov. Mutfwang, God bless Plateau state, God bless Nigeria!
  \n`,
-      date: '27st January 2024.',
+      date: '27th January 2024.',
       image: '/mangu.jpeg',
       images: [{ pic: '/mangu.jpeg' }],
     },
