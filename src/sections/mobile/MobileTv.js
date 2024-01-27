@@ -10,6 +10,52 @@ function MobileTv() {
         <div className='mobiletvstack'>
           <div className='mobiletvcard'>
             <a
+              href='https://youtu.be/Pp92qe89M2o?si=1QZ5cwd4ob-UojEa'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'>
+                <iframe
+                  width='100%'
+                  height='100%'
+                  src='https://www.youtube.com/embed/Pp92qe89M2o?si=LnYWm19hwpuaOBVs'
+                  title='YouTube video player'
+                  frameborder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div className='mtvtitle'>
+                Commissioner for Local Government & Chieftaincy Affairs inspects
+                projects of the 17 LGC TIC Chairmen
+              </div>
+            </a>
+          </div>
+          <div className='mobiletvcard'>
+            <a
+              href='https://youtu.be/Fu2oAJSRSzE?si=m23Ykr8lHuhiX5C2'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'>
+                <iframe
+                  width='100%'
+                  height='100%'
+                  src='https://www.youtube.com/embed/Fu2oAJSRSzE?si=cPky436xYhnN7frk'
+                  title='YouTube video player'
+                  frameborder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div className='mtvtitle'>
+                GOVERNOR MUTFWANG VISITS MANGU LG TO COMMISERATE WITH THE
+                VICTIMS OF THE RECENT ATTACK IN MANGU
+              </div>
+            </a>
+          </div>
+          <div className='mobiletvcard'>
+            <a
               href='https://youtu.be/ZQhzYqUWMX0?si=7Hxa5-pcqvXSA0Kd'
               target='_blank'
               className='mtvlink'
