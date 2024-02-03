@@ -10,6 +10,29 @@ function MobileTv() {
         <div className='mobiletvstack'>
           <div className='mobiletvcard'>
             <a
+              href='https://youtu.be/ogD0IbinkMI?si=5E517V2b72bENsBX'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'>
+                <iframe
+                  width='100%'
+                  height='100%'
+                  src='https://www.youtube.com/embed/ogD0IbinkMI?si=KegFh-phLVX29_cK'
+                  title='YouTube video player'
+                  frameborder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div className='mtvtitle'>
+                PDP GOVERNORS' FORUM COMMISERATES WITH PLATEAU, DONATES N100
+                MILLION TO VICTIMS OF VIOLENT ATTACKS
+              </div>
+            </a>
+          </div>
+          <div className='mobiletvcard'>
+            <a
               href='https://youtu.be/Pp92qe89M2o?si=1QZ5cwd4ob-UojEa'
               target='_blank'
               className='mtvlink'
