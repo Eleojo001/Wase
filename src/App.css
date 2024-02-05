@@ -41,10 +41,10 @@
 }
 
 .maintainlogo img{
-  width: 300px;
+  width: 200px;
   height: auto;
   animation-name: App-logo-spin;
-  animation-duration: 15s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-delay: 1s;
 }
