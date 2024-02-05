@@ -10,6 +10,29 @@ function MobileTv() {
         <div className='mobiletvstack'>
           <div className='mobiletvcard'>
             <a
+              href='https://youtu.be/jE4xkgxVDaM?si=Vkl1h4al_KiqOxgR'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'>
+                <iframe
+                  width='100%'
+                  height='100%'
+                  src='https://www.youtube.com/embed/jE4xkgxVDaM?si=E9P1UjKdmgtPNCL6'
+                  title='YouTube video player'
+                  frameborder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div className='mtvtitle'>
+                GOVERNOR MUTFWANG URGES FORGIVENESS AND UNITY FOR A STRONGER
+                PLATEAU DURING THANKSGIVING
+              </div>
+            </a>
+          </div>
+          <div className='mobiletvcard'>
+            <a
               href='https://youtu.be/ogD0IbinkMI?si=5E517V2b72bENsBX'
               target='_blank'
               className='mtvlink'
