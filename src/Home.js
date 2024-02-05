@@ -18,26 +18,31 @@ function Home() {
 
   return (
     <div>
-      <div className="desktop">
-      <Nav/>
-      <Sectionone/>
-      <Sectiontwo/>
-      <Sectionthree/>
-      {/* <SectionFour/> */}
-      <SectionFive/>
+      <div className='maintainace'>
+        <div className='maintainlogo'>
+          <img src="/maintainaceLogo.jpeg" alt="" />
+        </div>
+        <h1>Site Under Construction</h1>
       </div>
-      <div className="mobile">
-        <Navmobile/>
-        <Mobilesecone/>
-        <Mobilesecthree/>
-        <Mobilesectwo/>
-        <Mobilefooter/>
+      <div className='web'>
+        <div className='desktop'>
+          <Nav />
+          <Sectionone />
+          <Sectiontwo />
+          <Sectionthree />
+          {/* <SectionFour/> */}
+          <SectionFive />
+        </div>
+        <div className='mobile'>
+          <Navmobile />
+          <Mobilesecone />
+          <Mobilesecthree />
+          <Mobilesectwo />
+          <Mobilefooter />
+        </div>
       </div>
-
-
-
     </div>
-  )
+  );
 }
 
 export default Home

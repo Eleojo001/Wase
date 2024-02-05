@@ -24,7 +24,46 @@
 .mobile{
   display: none;
 }
+.web{
+  display: none;
+}
+.maintainace{
+  height: 100vh;
+  text-align: center;
+  margin-top: 10%;
+}
 
+.maintainlogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.maintainlogo img{
+  width: 300px;
+  height: auto;
+  animation-name: App-logo-spin;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+.maintainace h1{
+  margin-top: 60px;
+}
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+} */
 
 
 .navContainer{
