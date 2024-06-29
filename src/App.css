@@ -323,6 +323,80 @@ padding: 100px;
   background-color: #aea2dd;
 }
 
+/* NEWS DETAILS PAGE */
+.mobileNewsdetailsHolder{
+  display: none;
+}
+.d_headersFont{
+  font-size: 23px;
+  padding: 20px 0px;
+}
+.newsDtails{
+  padding: 0px 100px;
+}
+.d_dtailsBannerimage{
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  justify-content: space-between;
+  gap: 20px;
+  overflow-x: scroll;
+}
+.d_nwsdcarddet{
+  width: 400px;
+  height: auto;
+}
+.d_dbannerimg img{
+  width: 100%;
+  height: 100%;
+}
+.newDetailsContent{
+  padding: 0px 0px 10px 0px;
+}
+.goBACK button{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.d_sec3btn{
+  background-color: #2a166f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Desktop Radio details  */
+.mobileradioHoler{
+  display: none;
+}
+.d_Radiobanner{
+  height: 500px;
+  width: 100%;
+}
+.desktopHider{
+  background-color: var(--blueBackground);
+}
+.desktopHider{
+  position: absolute;
+  top: 72px;
+  width: 100%;
+}
+.d_radioEVT{
+  display: flex;
+  align-items: center;
+  padding: 20px 100px;
+
+}
+
+/* NEWS PAGE  */
+.newHeader{
+  text-align: center;
+  color: var(--blueBackground);
+}
+
+
+
 
 .Tradmark li{
   list-style: none;
@@ -341,8 +415,15 @@ padding: 100px;
   padding: 10px 0px;
   display: flex;
 }
-.futitems li{
+.futitems li, .futitems1 li{
   margin-right: 10px;
+}
+.futitems1{
+  list-style: none;
+  padding: 10px 0px;
+}
+.d_navlink{
+  color: #000000;
 }
 .aboutDesktop{
   display: block;
@@ -371,10 +452,10 @@ padding: 100px;
   display: none;
 }
 @media(max-width: 500px){
-  .mobile, .AboutMobile, .imageDesrip{
+  .mobile, .AboutMobile, .imageDesrip, .mobileradioHoler{
     display: block;
   }
-  .desktop, .aboutDesktop, .govt{
+  .desktop, .aboutDesktop, .govt, .dRadio{
     display: none;
   }
   .navmobile{
@@ -716,6 +797,12 @@ width: 100%;
 }
 
 /* News mobile details  */
+.mobileNewsdetailsHolder{
+  display: block;
+}
+.NewsDetailsPage{
+  display: none;
+}
 .mNewsDetails{
   padding: 30px 50px 50px;
   text-align: justify;

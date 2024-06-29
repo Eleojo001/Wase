@@ -8,15 +8,73 @@ import { FaInstagramSquare } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import { SiFacebook } from 'react-icons/si';
 import Navmobile from './Navmobile';
+import Nav from '../Nav';
+import SectionFive from '../SectionFive';
 
 
 function MobilenewsDetails() {
     const category = useContext(DataContext);
   const { id } = useParams();
   let data = category.news;
+  const imageStyle = {
+    fontSize:'12px',
+     width: '25px',
+    height: '25px'
+  }
 
   return (
     <div>
+      <div className="NewsDetailsPage">
+        <Nav/>
+        <div className="newsDtails">
+        <div className='NewsDetailsImg'></div>
+        <div className='newDetailsContent'>
+          {data.map((item) => {
+            if (item.id == id) {
+              return (
+                <div key={item.id}>
+                  <h1 className='d_headersFont'>{item.title}</h1>
+
+                  <p className=' details-content-author'>
+                    {item.author} <BsDot size={'1rem'} />{' '}
+                    <span>{item.date}</span>
+                  </p>
+                  <div className='newdimagcontainer'>
+                    <div className='d_dtailsBannerimage'>
+                      {item.images.map((pic, index) => {
+                        return (
+                          <div className='d_nwsdcarddet'>
+                            <div className='d_dbannerimg'>
+                              <img src={pic.pic} key={index} alt='' />
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                  {item.content.split('\n').map((paragraph, index) => (
+                    <p
+                      key={index}
+                      className='d-banner-content'
+                      style={{ fontSize: '18px', lineHeight: '1.5' }}
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              );
+            }
+          })}
+        </div>
+        <Link to={-1} style={{ textDecoration: 'none', textAlign: 'center' }}>
+          <button className='d_sec3btn'>
+            <span>Go back</span>
+          </button>
+        </Link>
+        </div>
+        <SectionFive/>
+      </div>
+      <div className="mobileNewsdetailsHolder">
       <Navmobile />
       <div className='mNewsDetails'>
         <div className='mNewsDetailsImg'></div>
@@ -115,6 +173,7 @@ function MobilenewsDetails() {
         <div className='Jomiah'>&copy; 2023 Created by JomiahCreations</div>
       </div>
     </div>
+      </div>
   );
 }
 

@@ -22,37 +22,45 @@ function SectionFive() {
             <div className='footcardItem'>
               <h4>Adress</h4>
               <ul className='futitems'>
-                <li>Jos, Plateau state, Nigeria</li>
+                <li>Wase, Plateau state, Nigeria</li>
               </ul>
             </div>
             <div className='footcardItem'>
               <h4>Social Media</h4>
               <ul className='futitems'>
                 <li>
-                  <a href='#' className='m-navlink'>
+                  <a href='#' className='d_navlink'>
                     <SiFacebook size={'1.5rem'} style={{color:'black'}} />
                   </a>
                 </li>
                 <li>
+                  <a href="#" className="d_navlink">
                   <IoLogoWhatsapp size={'1.5rem'} />
+                  </a>
                 </li>
                 <li>
+                <a href="#" className="d_navlink">
                   <BsTwitterX size={'1.5rem'} />
+                </a>
                 </li>
                 <li>
+                <a href="#" className="d_navlink">
                   <FaInstagramSquare size={'1.5rem'} />
+                </a>
                 </li>
                 <li>
+                <a href="#" className="d_navlink">
                   <SiGmail size={'1.5rem'} />
+                </a>
                 </li>
               </ul>
             </div>
             <div className='footcardItem'>
               <h4>Contact</h4>
-              <ul className='futitems'>
-                {/* <li>081 xxxx xxxx</li>
+              <ul className='futitems1'>
+                <li>081 xxxx xxxx</li>
                 <li>+234 xxx xxxx</li>
-                <li>+234 xxx xxxx</li> */}
+                <li>+234 xxx xxxx</li>
               </ul>
             </div>
           </div>

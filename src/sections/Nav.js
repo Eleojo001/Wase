@@ -20,7 +20,9 @@ function hide(e){
     <div>
       <div className='navContainer'>
         <div className='navLogo'>
+          <a href="/">
           <img src='/favicon.ico' alt='site logo' />
+          </a>
         </div>
         <div className='navCategories'>
           <li>
@@ -40,9 +42,17 @@ function hide(e){
             </div>
           </li>
           <div className={active}>
-            <li>News</li>
-            <li>Programs</li>
-            <li>Presenters</li>
+            <li>
+            <a href='/news' className='navlink'>
+              News
+            </a>
+            </li>
+            <li>
+            <a href='/programes' className='navlink'>
+              Programes
+            </a>
+            </li>
+            {/* <li>Presenters</li> */}
           </div>
         </div>
         <div className='navListener'>

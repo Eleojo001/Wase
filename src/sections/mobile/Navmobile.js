@@ -29,7 +29,7 @@ function Navmobile() {
               </a>
             </li>
             <li>
-              <a href='/waserock_radio' className='m-navlink'>
+              <a href='/waserock_93.9' className='m-navlink'>
                 Wase Rock FM 93.9
               </a>
             </li>

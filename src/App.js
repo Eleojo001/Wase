@@ -7,6 +7,8 @@ import MobileRadio from './sections/mobile/MobileRadio';
 import MobileTv from './sections/mobile/MobileTv';
 import Mobilepodcast from './sections/mobile/Mobilepodcast';
 import MobilenewsDetails from './sections/mobile/MobilenewsDetails';
+import News from './sections/News';
+import Programes from './sections/Programes';
 export const DataContext = React.createContext();
 
 function App() {
@@ -16,18 +18,13 @@ function App() {
       category: 'News',
       title: `Special Announcement 📢`,
       author: `Managemnt`,
-      content: `It's now time, to tune in to the hottest new radio station in town - Wase Rock FM!
-
-We're excited to announce that Wase Rock FM is now in test transmission mode, bringing you the best of information, education and entertainment 24/7!
-
-Tune in now to 93.9FM and enjoy the ride!
-
-Note: Our test transmission is a sneak peek of what's to come. Your feedback is valuable to us, so let us know what you think!
-
-Stay tuned for our official launch date and get ready to rock with Wase Rock FM! 
-
-✦ Wase Rock FM 93.9MHz ✦
-The People's Voice!`,
+      content: `It's now time, to tune in to the hottest new radio station in town - Wase Rock FM! \n
+      We're excited to announce that Wase Rock FM is now in test transmission mode, bringing you the best of information, education and entertainment 24/7!\n
+      Tune in now to 93.9FM and enjoy the ride!\n
+      Note: Our test transmission is a sneak peek of what's to come. Your feedback is valuable to us, so let us know what you think!\n
+      Stay tuned for our official launch date and get ready to rock with Wase Rock FM! \n
+      ✦ Wase Rock FM 93.9MHz ✦ \n
+      The People's Voice!`, 
       date: '29th June, 2024.',
       image: '/announcement_image.jpg',
       images: [{ pic: '/announcement_image.jpg' }],
@@ -326,10 +323,12 @@ He stated that the Commissioner of Police has ordered the Divisional Police Offi
             <Route path='/news/:id' element={<Home />} /> */}
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
-            <Route path='/waserock_103.9' element={<MobileRadio />} />
+            <Route path='/waserock_93.9' element={<MobileRadio />} />
             {<Route path='/wase_rocktv' element={<MobileTv />} />}
             <Route path='/wase_podcast' element={<Mobilepodcast />} />
             <Route path='/news/:id' element={<MobilenewsDetails />} />
+            <Route path='/news' element={<News />} />
+            <Route path='/programes' element={<Programes />} />
           </Routes>
         </DataContext.Provider>
       </BrowserRouter>

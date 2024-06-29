@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Navmobile from './Navmobile'
 import Mobilefooter from './Mobilefooter'
+import Nav from '../Nav';
+import SectionFive from '../SectionFive';
 
 function MobileRadio() {
   const [time, setTime] = useState(new Date());
@@ -14,6 +16,58 @@ function MobileRadio() {
   }, []);
   return (
     <div>
+      <div className="dRadio">
+        <Nav/>
+        <div className="desktopRadioContent">
+        <div className='radioDesktop'>
+          <div className='desktopHider'>
+            <div className='desktopHiderHolder'>
+              <div className='d_radioEVT'>
+              <h3 className='time' style={{color:'white'}}>{time.toLocaleTimeString()}</h3>
+                <h4 style={{ display: 'flex', alignItems:'center', color:'white',padding: '10px', gap:'10px' }}>
+                  <span
+                    style={{
+                      color: 'red',
+                      borderRadius: '5px',
+                    }}
+                  >
+                    On Air:
+                  </span>
+                  <span>Music</span>
+                </h4>
+                <h4 style={{ display: 'flex',alignItems:'center', justifyContent:'space-between', color:'white',padding: '10px', gap:'10px' }}>
+                  <span
+                    style={{
+                      color: 'red',
+                      borderRadius: '5px',
+                    }}
+                  >
+                    Up Next:
+                  </span>
+                  <span> News</span>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="d_Radiobanner">
+      
+          <iframe
+            src='https://zeno.fm/player/wase-rock-93-9-fm'
+            width='100%'
+            height='100%'
+            frameborder='0'
+            scrolling='no'
+          ></iframe>
+
+          </div>
+        </div>
+        </div>
+        <SectionFive/>
+      </div>
+
+{/* Mobile view */}
+
+      <div className="mobileradioHoler">
       <Navmobile />
       <div className='mobileradiofooterholder'>
         <div className='radiomobile'>
@@ -54,7 +108,7 @@ function MobileRadio() {
           </div>
 
           <iframe
-            src='https://zeno.fm/player/wase-rock-fm'
+            src='https://zeno.fm/player/wase-rock-93-9-fm'
             width='100%'
             height='100%'
             frameborder='0'
@@ -63,6 +117,7 @@ function MobileRadio() {
         </div>
       </div>
       <Mobilefooter />
+      </div>
     </div>
   );
 }
