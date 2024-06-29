@@ -50,9 +50,9 @@ function SectionFive() {
             <div className='footcardItem'>
               <h4>Contact</h4>
               <ul className='futitems'>
-                <li>081 xxxx xxxx</li>
+                {/* <li>081 xxxx xxxx</li>
                 <li>+234 xxx xxxx</li>
-                <li>+234 xxx xxxx</li>
+                <li>+234 xxx xxxx</li> */}
               </ul>
             </div>
           </div>
