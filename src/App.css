@@ -25,16 +25,13 @@
   display: none;
 }
 .web{
-<<<<<<< HEAD
-  display: none;
-}
-.maintainace{
-=======
   display: block;
 }
 .maintainace{
   display: none;
->>>>>>> 5141cde (Maintance over)
+}
+.maintainace{
+  display: none;
   height: 100vh;
   text-align: center;
   margin-top: 10%;

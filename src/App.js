@@ -297,31 +297,21 @@ He stated that the Commissioner of Police has ordered the Divisional Police Offi
       <BrowserRouter>
         <DataContext.Provider value={{ news, programmes }}>
           <Routes>
-<<<<<<< HEAD
-            <Route path='/' element={<Home />} />
-=======
             {/* <Route path='/' element={<Home />} />
->>>>>>> 5141cde (Maintance over)
             <Route path='/about' element={<Home />} />
             <Route path='/waserock_radio' element={<Home />} />
             <Route path='/wase_rocktv' element={<Home />} />
             <Route path='/wase_podcast' element={<Home />} />
-<<<<<<< HEAD
             <Route path='/news/:id' element={<Home />} />
             {/* <Route path='/' element={<Home />} />
-=======
             <Route path='/news/:id' element={<Home />} /> */}
             <Route path='/' element={<Home />} />
->>>>>>> 5141cde (Maintance over)
             <Route path='/about' element={<About />} />
             <Route path='/waserock_103.9' element={<MobileRadio />} />
             {<Route path='/wase_rocktv' element={<MobileTv />} />}
             <Route path='/wase_podcast' element={<Mobilepodcast />} />
-<<<<<<< HEAD
             <Route path='/news/:id' element={<MobilenewsDetails />} /> */}
-=======
             <Route path='/news/:id' element={<MobilenewsDetails />} />
->>>>>>> 5141cde (Maintance over)
           </Routes>
         </DataContext.Provider>
       </BrowserRouter>
