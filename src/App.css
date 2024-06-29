@@ -752,7 +752,12 @@ width: 100%;
 height: 100%;
 object-fit: cover;
 }
-
+.mobile_fut_media{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin: 5px 0;
+}
 
 }
 

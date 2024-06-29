@@ -2,6 +2,11 @@ import React, {useState, useEffect, useContext} from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { DataContext } from '../../App';
 import { BsDot } from 'react-icons/bs';
+import { IoLogoWhatsapp } from 'react-icons/io';
+import { BsTwitterX } from 'react-icons/bs';
+import { FaInstagramSquare } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
+import { SiFacebook } from 'react-icons/si';
 import Navmobile from './Navmobile';
 
 
@@ -79,7 +84,25 @@ function MobilenewsDetails() {
             </li>
             <li>
               <h5>Contact</h5>
-              <p>081 xxxx xxxx</p>
+                <p className="mobile_fut_media">
+                <li>
+                  <a href='#' className='m-navlink'>
+                    <SiFacebook size={'1.2rem'} style={{color:'white'}} />
+                  </a>
+                </li>
+                <li>
+                  <IoLogoWhatsapp size={'1.2rem'} />
+                </li>
+                <li>
+                  <BsTwitterX size={'1.2rem'} />
+                </li>
+                <li>
+                  <FaInstagramSquare size={'1.2rem'} />
+                </li>
+                <li>
+                  <SiGmail size={'1.2rem'} />
+                </li>
+                </p>
             </li>
           </div>
           <div className='mobileaddress'>
