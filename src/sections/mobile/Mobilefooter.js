@@ -26,7 +26,7 @@ function Mobilefooter() {
           <div className='mobileaddress'>
             <li>
               <h5>Address</h5>
-              <p>Plateau, Jos</p>
+              <p> Wase, Plateau State, Nigeria</p>
             </li>
           </div>
         </div>
