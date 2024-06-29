@@ -12,26 +12,47 @@ export const DataContext = React.createContext();
 function App() {
   const [news, setNews] = useState([
     {
+      id: '13',
+      category: 'News',
+      title: `Special Announcement 📢`,
+      author: `Managemnt`,
+      content: `It's now time, to tune in to the hottest new radio station in town - Wase Rock FM!
+
+We're excited to announce that Wase Rock FM is now in test transmission mode, bringing you the best of information, education and entertainment 24/7!
+
+Tune in now to 93.9FM and enjoy the ride!
+
+Note: Our test transmission is a sneak peek of what's to come. Your feedback is valuable to us, so let us know what you think!
+
+Stay tuned for our official launch date and get ready to rock with Wase Rock FM! 
+
+✦ Wase Rock FM 93.9MHz ✦
+The People's Voice!`,
+      date: '29th June, 2024.',
+      image: '/announcement_image.jpg',
+      images: [{ pic: '/announcement_image.jpg' }],
+    },
+    {
       id: '12',
       category: 'News',
       title: `PDP GOVERNORS' FORUM COMMISERATES WITH PLATEAU, CONTRIBUTES N100 MILLION TO VICTIMS OF VIOLENT ATTACKS`,
       author: `Gyang Bere Director of Press and Public Affairs to the Executive Governor of Plateau State`,
       content: `The PDP Governors' Forum  has expressed its condolences to the Government and people of Plateau State in the wake of the Christmas eve attacks and recent security breaches in Bokkos, Mangu, and Barkin-Ladi Local Government Areas. As a gesture of solidarity, the Governors contributed N100 Million to aid the survivors.\n
-
-Senator Bala Mohammed, Chairman of the Forum and Governor of Bauchi State, led the delegation to the New Government House in Little Rayfield, Jos.\n 
-
-He conveyed the Forum's sympathy to Governor Caleb Manasseh Mutfwang and the survivors while advocating for the establishment of State Police to address the prevailing security challenges.\n
-
-"We, representing the PDP Governors Forum, extend our heartfelt condolences to you and the people of Plateau. The crisis is unfortunate, and we urge you to remain focused amidst these challenges," Sen. Mohammed remarked.\n
-
-Acknowledging Plateau's role as a home for everyone, he emphasized the need for state-specific security measures. Sen. Mohammed appealed to the Federal Government and security agencies to intensify efforts in tackling the nation's security challenges.\n
-
-Governor Mutfwang, in response, expressed gratitude for the support and committed to fostering unity across faith and ethnicity on the Plateau. He stressed the importance of rebuilding trust among communities to address criminal activities effectively.\n
-
-"As governor, I believe in the unity of our people. If we rebuild trust and treat criminality uniformly, we can overcome these challenges," Governor Mutfwang stated. He affirmed the PDP's significance in Plateau and across Nigeria, pledging to continue delivering democratic dividends to the people.\n
-
-Among the Governors who came for the visit includes,  Sen. Dr. Ademola Adeleke, Osun State, Rt. Hon. Ahmadu Umaru Fintiri, Adamawa State, Seyi Makinde, Oyo State, Godwin Obasake, Edo State, Mr. Peter Mba, Enugu State and the Director General of the PDP Forum, Hon. C.T.O Maduabum.
-`,
+  
+  Senator Bala Mohammed, Chairman of the Forum and Governor of Bauchi State, led the delegation to the New Government House in Little Rayfield, Jos.\n 
+  
+  He conveyed the Forum's sympathy to Governor Caleb Manasseh Mutfwang and the survivors while advocating for the establishment of State Police to address the prevailing security challenges.\n
+  
+  "We, representing the PDP Governors Forum, extend our heartfelt condolences to you and the people of Plateau. The crisis is unfortunate, and we urge you to remain focused amidst these challenges," Sen. Mohammed remarked.\n
+  
+  Acknowledging Plateau's role as a home for everyone, he emphasized the need for state-specific security measures. Sen. Mohammed appealed to the Federal Government and security agencies to intensify efforts in tackling the nation's security challenges.\n
+  
+  Governor Mutfwang, in response, expressed gratitude for the support and committed to fostering unity across faith and ethnicity on the Plateau. He stressed the importance of rebuilding trust among communities to address criminal activities effectively.\n
+  
+  "As governor, I believe in the unity of our people. If we rebuild trust and treat criminality uniformly, we can overcome these challenges," Governor Mutfwang stated. He affirmed the PDP's significance in Plateau and across Nigeria, pledging to continue delivering democratic dividends to the people.\n
+  
+  Among the Governors who came for the visit includes,  Sen. Dr. Ademola Adeleke, Osun State, Rt. Hon. Ahmadu Umaru Fintiri, Adamawa State, Seyi Makinde, Oyo State, Godwin Obasake, Edo State, Mr. Peter Mba, Enugu State and the Director General of the PDP Forum, Hon. C.T.O Maduabum.
+  `,
       date: '1st February 2024.',
       image: '/govtContribute.jpeg',
       images: [{ pic: '/govtContribute.jpeg' }],
