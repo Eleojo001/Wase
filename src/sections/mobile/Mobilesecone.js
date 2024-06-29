@@ -30,7 +30,7 @@ function Mobilesecone() {
             businesses... <a href='/about'>Read more</a>
           </p>
           <div className='mobileListenerBtn'>
-            <a href='/waserock_103.9' className='listenlivebtn'>
+            <a href='/waserock_93.9' className='listenlivebtn'>
               <button className='navlistenBtn'>
                 <span className='text'>Listen Live</span>
                 <span className='navlistIcon'>
