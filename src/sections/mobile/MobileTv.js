@@ -14,6 +14,30 @@ function MobileTv() {
               target='_blank'
               className='mtvlink'
             >
+              <div className='mtvimg'>  
+                <iframe
+                  width='100%'
+                  height='100%'
+                  src="https://www.youtube.com/embed/649U72wNGTc?si=HowY8mKJ9PtjIewI"
+                  title='YouTube video player'
+                  frameborder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div className='mtvtitle'>
+              Hon. Hamisu Mohammed Anani, Chairman of Wase LGA & Algon Chairman,
+              Plateau State, gives a heartfelt vote of thanks at the commissioning
+              of the newly renovated assembly hall of Government Science College, Wase, courtesy of the Nigerian Army.
+              </div>
+            </a>
+          </div>
+          <div className='mobiletvcard'>
+            <a
+              href='https://youtu.be/jE4xkgxVDaM?si=Vkl1h4al_KiqOxgR'
+              target='_blank'
+              className='mtvlink'
+            >
               <div className='mtvimg'>
                 <iframe
                   width='100%'
