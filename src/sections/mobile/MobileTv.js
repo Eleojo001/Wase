@@ -10,6 +10,50 @@ function MobileTv() {
         <div className='mobiletvstack'>
           <div className='mobiletvcard'>
             <a
+              href='https://youtu.be/7GTfeZV5w-I?si=kfu8hVbNlySOZOb5'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'>  
+                <iframe
+                  width='100%'
+                  height='100%'
+                  src="https://www.youtube.com/embed/7GTfeZV5w-I?si=dPQJKAAacYyXTu3j"
+                  title='YouTube video player'
+                  frameborder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div className='mtvtitle'>
+              Plateau State Government Appeals to Youths to Shun Protest
+              </div>
+            </a>
+          </div>
+          <div className='mobiletvcard'>
+            <a
+              href='https://youtu.be/txq6bXRzefE?si=hXFsa93CGPoO_YfS'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'>  
+                <iframe
+                  width='100%'
+                  height='100%'
+                  src="https://www.youtube.com/embed/txq6bXRzefE?si=Ndu4q8Cg-sEsvsD7"
+                  title='YouTube video player'
+                  frameborder='0'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div className='mtvtitle'>
+              Tripartite Union of Nigerian Workers in Wase LGA, Purchase Nomination Form for Incumbent Chairman
+              </div>
+            </a>
+          </div>
+          <div className='mobiletvcard'>
+            <a
               href='https://youtu.be/jE4xkgxVDaM?si=Vkl1h4al_KiqOxgR'
               target='_blank'
               className='mtvlink'

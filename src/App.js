@@ -14,6 +14,20 @@ export const DataContext = React.createContext();
 function App() {
   const [news, setNews] = useState([
     {
+      id: '14',
+      category: 'News',
+      title: `Tripartite Union of Nigerian Workers in Wase LGA, Purchase Nomination Form for Incumbent Council Chairman,
+       Hon. Hamisu Anani.`,
+      author: `Managemnt`,
+      content: `
+      This they said, is in a bid to consolidate on good governance Wase Local Government Area enjoys under his able leadership. \n
+      Hence, the need for such sacrificial contributions by Nigerian workers in Wase and the 
+      call for continuity of good leadership by Honourable Hamisu Anani`, 
+      date: '1st Aug, 2024.',
+      image: '/announcement_image.jpg',
+      images: [{ pic: '/breakingNews.jpeg' }],
+    },
+    {
       id: '13',
       category: 'News',
       title: `Special Announcement 📢`,
