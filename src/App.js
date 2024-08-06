@@ -14,6 +14,36 @@ export const DataContext = React.createContext();
 function App() {
   const [news, setNews] = useState([
     {
+      id: '15',
+      category: 'News',
+      title: `WASE Rock FM 93.9 Gets Green Light for Commercial Broadcasting!`,
+      author: `Managemnt`,
+      content: `
+
+Breaking News \n
+
+In a landmark development, the National Broadcasting Commission (NBC) has granted WASE Rock FM 93.9 approval for commercial broadcasting!\n
+
+According to an official letter signed by NBC Secretary, Mrs. Francisca Aiyantan, WASE Rock FM has successfully completed its test transmission period.\n
+
+The commission urges the station to adhere to the National Broadcasting Commission Act, Cap. N11, and the Nigeria Broadcasting Code.\n
+In a similar development,
+The Wase LGA TIC Chairman Commends NBC, assures compliance.\n
+
+The Transition Implementation Committee Chairman, Hon. Alhaji Hamisu Anani Mohammed, has praised the National Broadcasting Commission (NBC) for the approval.\n
+In a statement
+Through his Director of Personnel Management, Alhaji Abdullahi, the TIC Chairman assured the National Broadcasting Commission, NBC of Wase Rock FM's "100% compliance" with regulations.\n
+
+Hon. Alhaji Hamisu Anani congratulated the people of Wase Local Government, Southern Plateau, and Plateau State at large on this significant achievement.\n
+
+"This milestone marks a new era for Wase LGA, and we're committed to upholding NBC's standards." - Hon. Alhaji Hamisu Anani Mohammed.\n
+
+WASE Rock FM 93.9 remains dedicated to serving the community with quality programming and adherence to broadcasting excellence.`, 
+      date: '6th Aug, 2024',
+      image: '/wasenbdnews1.jpg ',
+      images: [{ pic: '/waseNbcNews.jpg' }],
+    },
+    {
       id: '14',
       category: 'News',
       title: `Tripartite Union of Nigerian Workers in Wase LGA, Purchase Nomination Form for Incumbent Council Chairman,

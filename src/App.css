@@ -341,7 +341,7 @@ padding: 100px;
   margin: 20px 0px;
   justify-content: space-between;
   gap: 20px;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 .d_nwsdcarddet{
   width: 400px;
