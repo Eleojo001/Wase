@@ -41,7 +41,7 @@ Hon. Alhaji Hamisu Anani congratulated the people of Wase Local Government, Sout
 WASE Rock FM 93.9 remains dedicated to serving the community with quality programming and adherence to broadcasting excellence.`, 
       date: '6th Aug, 2024',
       image: '/nbcwase12.jpg ',
-      images: [{ pic: '/nbcwase12.jpg' }],
+      images: [{ pic: '/nbcwase13.jpg' }],
     },
     {
       id: '14',
