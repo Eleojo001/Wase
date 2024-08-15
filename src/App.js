@@ -13,6 +13,26 @@ export const DataContext = React.createContext();
 
 function App() {
   const [news, setNews] = useState([
+    
+    {
+      id: '16',
+      category: 'News',
+      title: `TIC Chairman, Hon. Hamisu Anani Mohammed Expresses Gratitude to Stakeholders for Success of WASE ROCK Broadcasting Network's Success
+ `,
+      author: ``,
+      content: `The Chairman, Transition Implementation Committee, Wase Local Government Council,
+       Hon. Alh. Hamisu Anani Mohammed, has expressed his heartfelt appreciation for the invaluable
+        contributions and motivation provided by the Commissioner for Local Government and Chieftaincy
+         Affairs in Plateau State, Chief Ephraim Usman. In a press release issued to the WASE ROCK FM News Desk,
+          Hon. Hamisu Anani acknowledged Chief Ephraim's instrumental role in the successful establishment of the
+           WASE ROCK Broadcasting Network.
+Additionally, Hon. Hamisu Anani extended his gratitude to Hon. Yakubu Jang, a renowned stakeholder in Plateau State and a steadfast supporter of the WASE ROCK Broadcasting Network project, for his goodwill and unwavering commitment to the initiative."`,
+      date: '15th August, 2024',
+      images: [
+        { pic: '/aug15img2.jpg' },
+        { pic: '/aug15img.jpg' },
+      ],
+    },
     {
       id: '15',
       category: 'News',
