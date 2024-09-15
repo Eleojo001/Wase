@@ -36,7 +36,6 @@ function Sectionone() {
               <img src='/honorable.jpeg' alt='' />
             </div>
           </div>
-          {/* <img src='/sirinNoma.jpeg' alt='' /> */}
         </div>
       </div>
     </div>

@@ -10,6 +10,8 @@ import { SiFacebook } from 'react-icons/si';
 import Navmobile from './Navmobile';
 import Nav from '../Nav';
 import SectionFive from '../SectionFive';
+// import ImageSlider from '../Slider';
+import '../Slider.css'
 
 
 function MobilenewsDetails() {
@@ -41,10 +43,10 @@ function MobilenewsDetails() {
                   </p>
                   <div className='newdimagcontainer'>
                     <div className='d_dtailsBannerimage'>
-                      {item.images.map((pic, index) => {
+                    {item.images.map((pic, index) => {
                         return (
-                          <div className='d_nwsdcarddet'>
-                            <div className='d_dbannerimg'>
+                          <div className='nwsdcarddet'>
+                            <div className='mdbannerimg'>
                               <img src={pic.pic} key={index} alt='' />
                             </div>
                           </div>
@@ -80,7 +82,8 @@ function MobilenewsDetails() {
         <div className='mNewsDetailsImg'></div>
         <div className='mnewDetailsContent'>
           {data.map((item) => {
-            if (item.id == id) {
+            // let photo = item.imageArray
+            if (item.id === id) {
               return (
                 <div key={item.id}>
                   <h3 className='m-headersFont'>{item.title}</h3>
@@ -91,6 +94,7 @@ function MobilenewsDetails() {
                   </p>
                   <div className='newdimagcontainer'>
                     <div className='m-dtailsBannerimage'>
+                    {/* <ImageSlider images={item.imageArray} /> */}
                       {item.images.map((pic, index) => {
                         return (
                           <div className='nwsdcarddet'>
@@ -100,7 +104,7 @@ function MobilenewsDetails() {
                           </div>
                         );
                       })}
-                      
+
                       {/* <div className='nwsdcarddet'>
                         <div className='mdbannerimg'>
                           <img src={item.image} alt='' />

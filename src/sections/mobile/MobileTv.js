@@ -15,6 +15,20 @@ function MobileTv() {
               className='mtvlink'
             >
               <div className='mtvimg'>  
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RBzU96247ak?si=J1tk6p3W4B0bkiNi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div className='mtvtitle'>
+              Plateau State Government Appeals to Youths to Shun Protest
+              </div>
+            </a>
+          </div>
+          <div className='mobiletvcard'>
+            <a
+              href='https://youtu.be/7GTfeZV5w-I?si=kfu8hVbNlySOZOb5'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'>  
                 <iframe
                   width='100%'
                   height='100%'

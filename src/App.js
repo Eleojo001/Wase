@@ -15,6 +15,22 @@ function App() {
   const [news, setNews] = useState([
     
     {
+      id: '17',
+      category: 'News',
+      title: `Plateau State Governor Convenes Crucial Meeting with PDP Stakeholders`,
+      author: ``,
+      content: ` 
+      In preparation for upcoming Local Government elections in the state, the Governor of Plateau State, His Excellency, 
+      Gov. Caleb Mutfwang has summoned an interactive and reconciliatory meeting with 
+      key stakeholders of the Peoples Democratic Party (PDP) in Plateau State.
+
+While addressing stakeholders at the meeting, Governor Mutfwang said the call is to foster unity and reconciliation, discuss election strategies, and ensure a united front for the upcoming elections.`,
+      date: '15th September, 2024',
+      images: [
+        { pic: '/govt17.jpg' },
+      ],
+    },
+    {
       id: '16',
       category: 'News',
       title: `TIC Chairman, Hon. Hamisu Anani Mohammed Expresses Gratitude to Stakeholders for Success of WASE ROCK Broadcasting Network's Success
