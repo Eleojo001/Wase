@@ -8,6 +8,38 @@ function MobileTv() {
       <Navmobile />
       <div className='mobiletvholder'>
         <div className='mobiletvstack'>
+
+          <div className='mobiletvcard'>
+            <a
+              href='https://youtu.be/p08RhbjO3pg?si=x2596vHHP8qpqQst'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'> 
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Zw31dEkXu48?si=TYRtbgeAlui2nNR6"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+              </div>
+              <div className='mtvtitle'>
+              PDP LG Chairmanship Candidate, Wase Local Government Speaks at Campaign Flag off Ceremony
+              </div>
+            </a>
+          </div>
+          
+
+          <div className='mobiletvcard'>
+            <a
+              href='https://youtu.be/fOqiXPTBG2Q?si=Oxyl2n3tUJSUtKGM'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'> 
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fOqiXPTBG2Q?si=2_bPQIQ1g9oDq0CV"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+              </div>
+              <div className='mtvtitle'>
+              Gov. Mutfwang Flags off Campaigns for LGA Elections in Plateau South
+              </div>
+            </a>
+          </div>
+          
           <div className='mobiletvcard'>
             <a
               href='https://youtu.be/uUpKXyJwexw?si=92Oyv8CZZ2iDqp9g'
@@ -22,6 +54,7 @@ function MobileTv() {
               </div>
             </a>
           </div>
+
           <div className='mobiletvcard'>
             <a
               href='https://youtu.be/uUpKXyJwexw?si=92Oyv8CZZ2iDqp9g'
@@ -96,7 +129,7 @@ function MobileTv() {
           </div>
           <div className='mobiletvcard'>
             <a
-              href='https://youtu.be/jE4xkgxVDaM?si=Vkl1h4al_KiqOxgR'
+              href='https://youtu.be/649U72wNGTc?si=67gB9W-6myOcxhV_'
               target='_blank'
               className='mtvlink'
             >
@@ -235,7 +268,7 @@ function MobileTv() {
           </div>
           <div className='mobiletvcard'>
             <a
-              href='https://youtu.be/kljuSv8xf9A?si=2O4JNQo8Y-akntT1'
+              href='https://youtu.be/iul8beIsk5Q?si=ZsoLya8oTDY9PZxh'
               target='_blank'
               className='mtvlink'
             >
@@ -304,7 +337,7 @@ function MobileTv() {
           </div>
           <div className='mobiletvcard'>
             <a
-              href='https://www.youtube.com/channel/UCHVdxwG2WGh15TQLLrsobOA'
+              href='https://youtu.be/lZ0cZ1Cd5Y0?si=U-X4Tha8Bh1oYDE7'
               target='_blank'
               className='mtvlink'
             >
