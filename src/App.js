@@ -15,6 +15,52 @@ function App() {
   const [news, setNews] = useState([
     
     {
+      id: '19',
+      category: 'News',
+      title: `Chairmanship Candidate for WASE LGA receives donations for Campaigns from Elder Statesman`,
+      author: `THADDEUS `,
+      content: `Chairmansip Candidate, Wase LGA of Plateau State, Hon. Hamisu Amani Receives Donations For Campaigns from Elderstatesman and Retired Permanent Secretary, from Wase 
+Sani Yahaya Mavo.
+
+The move towards ensuring victory for the Peoples Democratic party Chairmanship Candidate for WASE local government area has received a boost.
+
+This follows the donation of campaign materials to the flag bearer of the party by a retired permanent Secretary from WASE Sani Yahaya Mavo.
+
+Our Langtang Zonal Correspondent has details.
+
+
+THADDEUS 
+4/10/1024`,
+      date: '4th October, 2024',
+      images: [
+        { pic: '/campaign5TH.jpg' },
+      ],
+    },
+    
+    {
+      id: '18',
+      category: 'News',
+      title: `PLATEAU STATE PDP FLAGS OFF CAMPAIGN RALLY`,
+      author: ``,
+      content: `The Peoples Democratic Party (PDP) in Plateau State flagged off its campaign rally ahead of the forthcoming Local Government Councils elections.
+
+
+The event, which drew thousands of party faithfuls, supporters, and stakeholders from across the state, also witnessed massive defections from the opposition party APC into the PDP
+
+
+The rally was attended by His Excellency, Governor Caleb Mutfwang, the Executive Governor of Plateau state and top PDP officials. 
+
+
+The party assured the mammoth crowd that the PDP would deliver victory in the upcoming polls, emphasizing the party's commitment to the welfare and betterment of Plateau people.
+
+
+The rally featured cultural performances, music, and speeches from various party leaders, energizing the crowd and setting the tone for the campaign season.`,
+      date: '28th September, 2024',
+      images: [
+        { pic: '/pdp_capmpaign.jfif' },
+      ],
+    },
+    {
       id: '17',
       category: 'News',
       title: `Plateau State Governor Convenes Crucial Meeting with PDP Stakeholders`,

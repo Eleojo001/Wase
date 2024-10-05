@@ -10,6 +10,34 @@ function MobileTv() {
         <div className='mobiletvstack'>
           <div className='mobiletvcard'>
             <a
+              href='https://youtu.be/uUpKXyJwexw?si=92Oyv8CZZ2iDqp9g'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'> 
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/p08RhbjO3pg?si=TGwH-8WFox0cz93K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+              </div>
+              <div className='mtvtitle'>
+              Chairmanship Candidate for WASE LGA receives donations for Campaigns from Elder Statesman
+              </div>
+            </a>
+          </div>
+          <div className='mobiletvcard'>
+            <a
+              href='https://youtu.be/uUpKXyJwexw?si=92Oyv8CZZ2iDqp9g'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'>  
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uUpKXyJwexw?si=VnOjUFEA_Uq6wt1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div className='mtvtitle'>
+              PLATEAU STATE PDP FLAGS OFF CAMPAIGN RALLY
+              </div>
+            </a>
+          </div>
+          <div className='mobiletvcard'>
+            <a
               href='https://youtu.be/RBzU96247ak?si=oK1Bt54U_tuSuL-4'
               target='_blank'
               className='mtvlink'
