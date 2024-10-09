@@ -11,6 +11,21 @@ function MobileTv() {
 
           <div className='mobiletvcard'>
             <a
+              href='https://youtu.be/Y-61wrb9OAE?si=tllbUqm70sTS9qVt'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'> 
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Y-61wrb9OAE?si=tllbUqm70sTS9qVt"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+              </div>
+              <div className='mtvtitle'>
+              THE MAN HAMISU ANANI - MAKING A DIFFERENCE, ONE STEP AT A TIME
+              </div>
+            </a>
+          </div>
+
+          <div className='mobiletvcard'>
+            <a
               href='https://youtu.be/p08RhbjO3pg?si=x2596vHHP8qpqQst'
               target='_blank'
               className='mtvlink'
