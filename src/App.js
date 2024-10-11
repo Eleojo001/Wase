@@ -15,6 +15,26 @@ function App() {
   const [news, setNews] = useState([
     
     {
+      id: '21',
+      category: 'News',
+      title: `CONGRATULATIONS ON YOUR RE-ELECTION AS PLATEAU STATE ALGON CHAIRMAN & NATIONAL ALGON PUBLICITY SECRETARY HON. HAMISU ANANI!!`,
+      author: `Junaidu Adamu`,
+      content: ` I Wish to congratulate you on your re-election as National Algon Publicity Secretary and Plateau State ALGON Chairman which is the first in the history of Plateau South for one to be allowed to serve for 2nd term under the named capacity.
+
+Sir, your re-election as Algon Chairman did not come to us as surprise as you deserve to be honored with such a second term due to your demonstration of credibility, outstanding performance and the spirit of transparency, probity and fairness you exhibited to your colleagues. 
+As you took the oath of office yesterday,  may God in His bounties of blessings, protection, and guidance, continue to see you throughout your leadership and deliberations.
+
+Accept our warmest and heartiest congratulations once again Sir.
+
+Junaidu Adamu,
+For Media Team, Wase LGC`,
+      date: '10th October, 2024',
+      images: [
+        { pic: '/honor.jpg' },
+      ],
+    },
+
+    {
       id: '20',
       category: 'News',
       title: `PLATEAU STATE LG CHAIRMEN PLEDGE COMMITMENT TO   GOVERNOR'S VISION`,
