@@ -15,6 +15,36 @@ function App() {
   const [news, setNews] = useState([
     
     {
+      id: '20',
+      category: 'News',
+      title: `PLATEAU STATE LG CHAIRMEN PLEDGE COMMITMENT TO   GOVERNOR'S VISION`,
+      author: `Jeffrey Isaacs, the Consultant, Wase Rock Broadcasting Network`,
+      content: `The Plateau State Independent Electoral Commission (PLASIEC) has declared through the commission's Chairman Hon. Plangji Cishak, Hamisu Anani' Mohammad of the People's Democratic Party (PDP), the winner of the Wase Local Government chairmanship election, held on October 9, 2024.
+
+Anani polled 42,819 votes, defeating his closest rival, Engineer Hamza Haruna of the All Progressive Congress (APC), who secured 29,158 votes. The Labour Party's Kabiru garnered a single vote.
+
+In a swift response at the inauguration, Hon. Hamisu Anani, on behalf of the 17 newly elected local government chairmen, assured Governor Caleb Mutfwang and the people of Plateau State of their commitment to working in line with the executive governor's vision.
+
+While granting an interview with Wase Rock FM news correspondent Delson Musa Sunday, Anani reassured the citizens of Wase LGA of his total commitment to a people-oriented government, in line with his earlier manifesto promises, dedicating his victory to all people of Wase..
+
+The chairmen's commitment aligns with Governor Mutfwang's inaugural speech, where he emphasized the need for unity, peace, and development in Plateau State. The governor had outlined his administration's priorities, including:
+
+- Peace and Security: Enhancing security measures to protect lives and property
+- Economic Development: Promoting commerce, industry, and entrepreneurship
+- Agriculture: Supporting farmers and improving food security
+- Tourism: Developing tourist attractions and infrastructure
+- Social Development: Empowering youths, women, and vulnerable groups
+
+As the newly elected chairmen begin their tenure, the people of Plateau State eagerly anticipate the positive impact of their collecive efforts.
+
+As written by          Jeffrey Isaacs, the Consultant, Wase Rock Broadcasting Network
+`,
+      date: '10th October, 2024',
+      images: [
+        { pic: '/victory.jpg' },
+      ],
+    },
+    {
       id: '19',
       category: 'News',
       title: `Chairmanship Candidate for WASE LGA receives donations for Campaigns from Elder Statesman`,
@@ -26,11 +56,7 @@ The move towards ensuring victory for the Peoples Democratic party Chairmanship 
 
 This follows the donation of campaign materials to the flag bearer of the party by a retired permanent Secretary from WASE Sani Yahaya Mavo.
 
-Our Langtang Zonal Correspondent has details.
-
-
-THADDEUS 
-4/10/1024`,
+Our Langtang Zonal Correspondent has details.`,
       date: '4th October, 2024',
       images: [
         { pic: '/campaign5TH.jpg' },
