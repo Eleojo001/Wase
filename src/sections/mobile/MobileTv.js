@@ -11,6 +11,36 @@ function MobileTv() {
 
           <div className='mobiletvcard'>
             <a
+              href='https://youtu.be/LRPFH6RSURo?si=z-EagSZYnmDi6LCi'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'> 
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/LRPFH6RSURo?si=9pTzg84B988pYsUq"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+              </div>
+              <div className='mtvtitle'>
+              HIS EXCELLENCY GOV. MUTFWANG PRESENTS CERTIFICATE TO HON. HAMISU ANANI, WASE LGA CHAIR!
+              </div>
+            </a>
+          </div>
+
+          <div className='mobiletvcard'>
+            <a
+              href='https://youtu.be/_WMBvRhfyqY?si=N-NJpYaM4p7eSSOD'
+              target='_blank'
+              className='mtvlink'
+            >
+              <div className='mtvimg'> 
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_WMBvRhfyqY?si=KF5NEDybdAYRFT_z"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+              </div>
+              <div className='mtvtitle'>
+              CELEBRATION ERUPTS AS HON. HAMISU ANANI WINS CHAIRMANSHIP OF WASE LGA
+              </div>
+            </a>
+          </div>
+
+          <div className='mobiletvcard'>
+            <a
               href='https://youtu.be/Y-61wrb9OAE?si=tllbUqm70sTS9qVt'
               target='_blank'
               className='mtvlink'
