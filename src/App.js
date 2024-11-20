@@ -14,6 +14,60 @@ export const DataContext = React.createContext();
 function App() {
   const [news, setNews] = useState([
     {
+      id: "24",
+      category: "News",
+      title: `Governor Mutfwang's lobby for the dualization of Akwanga-Jos-Bauchi-Gombe Road is yielding positive results`,
+      author: `Joshua Felix`,
+      content: `Being a regular user of the road before and after he became Governor and following the legitimate concerns of Nigerians particularly those who pass through Jos to the North East of Nigeria, Governor Caleb Mutfwang took it upon himself to mobilise relevant stakeholders to persuade President Bola Ahmed Tinubu to prioritise the construction and dualization of the aforementioned road.
+
+It is gratifying to note that after visits by Governor Mutfwang to the Honourable Minister of Works, the ever hard working and competent Engr. David Umahi, the Minister persuaded Mr. President to listen to the cries of Nigerians who pass through the Abuja- Jos- North East corridor.  
+
+This efforts culminated into the presentation of a well articulated memo to the National Council of States meeting, where approval was given for the inclusion of this road among the President's legacy road projects! 
+
+To match words with action, Mr. President proceeded to negotiate and secure a Chinese EXIM Bank facility of about $1.1 billion ! Infact things are moving so fast that Messrs CGC have been appointed contractors for the project.  
+
+At the moment, designs are being finalised with the active inputs from the Plateau State Government. It is hoped that the procurement process will follow soon so that by 2025 actual construction will begin. 
+
+In the interim, Governor Mutfwang has engaged the Federal Road Maintenance Agency (FERMA) to explore collaboration for remedial intervention pending the commencement of the dualization of the road by the Federal Ministry of Works. 
+
+As the Mutfwang administration turns full throttle and looks good towards the future, there is no doubt that the people's Governor's politico-economic and social mantra will continue to deploy subtle diplomacy and prolific political soldiering, using lobbying and forward-looking politics or politics without bitterness, to bring home more dividends of democracy.`,
+      date: "20th November, 2024",
+      images: [{ pic: "/pic2_11_2024.jpg" }],
+    },
+    {
+      id: "23",
+      category: "News",
+      title: `CONDOLENCE VISITS BY THE EXECUTIVE CHAIRMAN WASE LOCAL GOVERNMENT COUNCIL HON. ALH. HAMISU  ANANI ,  CONDOLE WITH THE   FAMILY OF JEFFREY ISAAC.`,
+      author: ``,
+      content: `
+
+We received with great shock the devastating and shocking news of the passing away of Consultant WASE/Rock FM Radio Jeffrey Isaac whose sad event occurred on Saturday 9th November 2024. 
+
+This is a colossal loss to the family ,  Wase Local government Council and indeed the Local Government entirely.
+
+The deceased who was a worthy friend to me and spent all his life on earth modelling and was dedicated and commited  to serving God and humanity. 
+
+Death is indeed inevitable, but anytime it occurs, it appears to be new to us. We love him but God loves him most. We have no right whatsoever to question His action. We remain appreciative to God almighty for all that befall us.
+
+This is truly a trying moment for us all .
+
+Late Jeffrey Isaac left to the great beyond at the very moment his wise counsel as a worthy friend and leader is needed Most. 
+But as believers,  we must accept and endure in good faith. He is gone but he will forever remain green in our memories.
+His good counsel will be missed greatly.
+
+May God almighty forgive his past wrong deeds and grant him the highest perfect condition .
+
+It's our prayer that God almighty Will give Wase Rock FM and  his immediately family and other bereaved the fortitude to bear this huge loss.
+
+Do Please accept our heart felt sympathy and condolences.
+
+ Signed 
+
+From the office of the Hon Chairman Wase Local government council.`,
+      date: "12th November, 2024",
+      images: [{ pic: "/pic_govt_11_2024.jpg" }],
+    },
+    {
       id: "22",
       category: "News",
       title: `A Hero Passes On!`,
