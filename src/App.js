@@ -1,18 +1,170 @@
-import React, { useContext,useState } from 'react';
-import { Route, BrowserRouter, Routes } from 'react-router-dom';
-import './App.css';
-import Home from './Home';
-import About from './sections/About';
-import MobileRadio from './sections/mobile/MobileRadio';
-import MobileTv from './sections/mobile/MobileTv';
-import Mobilepodcast from './sections/mobile/Mobilepodcast';
-import MobilenewsDetails from './sections/mobile/MobilenewsDetails';
-import News from './sections/News';
-import Programes from './sections/Programes';
+import React, { useContext, useState } from "react";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+import "./App.css";
+import "./adminPages/Addmin.css";
+import Home from "./Home";
+import About from "./sections/About";
+import MobileRadio from "./sections/mobile/MobileRadio";
+import MobileTv from "./sections/mobile/MobileTv";
+import Mobilepodcast from "./sections/mobile/Mobilepodcast";
+import MobilenewsDetails from "./sections/mobile/MobilenewsDetails";
+import News from "./sections/News";
+import Programes from "./sections/Programes";
+import Adminhome from "./adminPages/Adminhome";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 export const DataContext = React.createContext();
 
 function App() {
   const [news, setNews] = useState([
+    {
+      id: "25",
+      category: "News",
+      title: `WE ARE HIRING!`,
+      author: ``,
+      content: ` 
+
+We are hiring at Wase Rock FM, Wase Plateau State. 
+
+Wase Rock FM is a radio station owned by Wase Local Government Area of Plateau State and currently on full broadcast transmission.
+
+If you are young and talented, you can apply for the following   positions 
+
+1. Station Manager
+2. On Air Personalities 
+3. Newscasters and Reporters
+4. Studio and Transmission Engineers
+
+
+MODE OF APPLICATION
+
+Qualified candidates should send their applications to jenniferkaze@gmail.com 
+
+OR
+
+The Office of the Director, Social Services,
+Wase Local Government Secretariat.Wase.
+
+DURATION
+
+Two weeks from the date of commencement of this announcement November, 2024.
+
+Shortlisted candidates for interview will be contacted via the addresses on their applications.
+
+
+ Qualification and Detailed job descriptions for Wase Rock FM positions: 
+
+Station Manager
+
+1. Job Title: Station Manager
+2. Reports to: Executive Chairman, Wase Local Government Council
+3. Location: Wase, Plateau State
+4. Job Type: Full-time
+
+Responsibilities
+
+1. Oversees station operations, strategy, and growth.
+2. Manages staff, including recruitment, training, and performance evaluation.
+3. Develops and implements programming schedules and content.
+4. Ensures compliance with broadcasting regulations and standards.
+5. Maintains relationships with stakeholders, advertisers, and partners.
+6. Manages budget and resources.
+7. Enhances station branding and community engagement.
+
+Requirements
+
+1. Degree in Mass Communication, Business Administration or related field.
+2. 5+ years of experience in radio management or related industry.
+3. Strong leadership, communication and organizational skills.
+4. Familiarity with Nigerian broadcasting regulations.
+
+On-Air Personalities
+
+1. Job Title: On-Air Personality (OAP)
+2. Reports to: Program Director
+3. Location: Wase, Plateau State
+4. Job Type: Full-time
+
+Responsibilities
+
+1. Hosts radio shows, programs and events.
+2. Develops engaging content, scripts and interviews.
+3. Interacts with listeners through social media and phone calls.
+4. Participates in promotional activities and events.
+5. Collaborates with production team for show preparation.
+6. Stays updated on current events, news and trends.
+
+Requirements
+
+1. Degree in Mass Communication, Performing Arts or related field.
+2. 2+ years of experience in radio presenting or related industry.
+3. Excellent communication, presentation and interpersonal skills.
+4. Strong voice, tone and on-air presence.
+
+Newscasters and Reporters
+
+1. Job Title: Newscaster/Reporter
+2. Reports to: News Director
+3. Location: Wase, Plateau State
+4. Job Type: Full-time
+
+Responsibilities
+
+1. Researches, writes and presents news stories.
+2. Conducts interviews with newsmakers and experts.
+3. Covers local events, meetings and press conferences.
+4. Edits and produces news segments.
+5. Maintains relationships with news sources and stakeholders.
+6. Provides live reports from the field.
+
+Requirements
+
+1. Degree in Mass Communication, Journalism or related field.
+2. 2+ years of experience in news reporting or related industry.
+3. Strong research, writing and presentation skills.
+4. Ability to work under tight deadlines.
+
+Studio and Transmission Engineers
+
+1. Job Title: Studio and Transmission Engineer
+2. Reports to: Technical Director
+3. Location: Wase, Plateau State
+4. Job Type: Full-time
+
+Responsibilities
+
+1. Maintains and operates studio and transmission equipment.
+2. Ensures smooth broadcast signal transmission.
+3. Troubleshoots technical issues.
+4. Installs and configures new equipment.
+5. Monitors broadcast quality and performance.
+6. Collaborates with production team for live broadcasts.
+
+Requirements
+
+1. Degree in Electrical/Electronic Engineering or related field.
+2. 2+ years of experience in broadcast engineering or related industry.
+3. Strong technical knowledge of studio and transmission systems.
+4. Problem-solving and analytical skills.
+
+Application Instructions
+
+1. Send applications to: jenniferkaze@gmail.com
+OR
+2. Submit hard copies to: The Office of the Director, Social Services, Wase Local Government Secretariat, Wase.
+3. Include CV, cover letter and relevant certificates.
+4. Application deadline: Two weeks from 3rd December, 2024.
+
+SIGNED.
+Jennifer I.Kaze
+Director, Social Services
+
+For
+Executive Chairman
+Wase Local Government Council.`,
+      date: "3rd December, 2024",
+      images: [{ pic: "/hire.png" }],
+    },
     {
       id: "24",
       category: "News",
@@ -496,57 +648,57 @@ He stated that the Commissioner of Police has ordered the Divisional Police Offi
 
   const [programmes, setProgrammes] = useState([
     {
-      id: '1',
-      category: 'programmes',
-      title: 'Sirin Noma',
+      id: "1",
+      category: "programmes",
+      title: "Sirin Noma",
       content: ``,
-      date: '26th December, 2023',
-      image: '/sirinNoma.jpeg',
+      date: "26th December, 2023",
+      image: "/sirinNoma.jpeg",
     },
     {
-      id: '2',
-      category: 'programmes',
-      title: 'Ilimin Kasuwanci',
+      id: "2",
+      category: "programmes",
+      title: "Ilimin Kasuwanci",
       content: ``,
-      date: '26th December, 2023',
-      image: '/llimin.jpeg',
+      date: "26th December, 2023",
+      image: "/llimin.jpeg",
     },
     {
-      id: '3',
-      category: 'programmes',
-      title: 'Dogaro da Kai',
+      id: "3",
+      category: "programmes",
+      title: "Dogaro da Kai",
       content: ``,
-      date: '26th December, 2023',
-      image: '/dogarodakai.jpeg',
+      date: "26th December, 2023",
+      image: "/dogarodakai.jpeg",
     },
     {
-      id: '4',
-      category: 'programmes',
-      title: 'Kasuwar Wase',
+      id: "4",
+      category: "programmes",
+      title: "Kasuwar Wase",
       content: ``,
-      date: '26th December, 2023',
-      image: '/kasuwarwuse.jpeg',
+      date: "26th December, 2023",
+      image: "/kasuwarwuse.jpeg",
     },
     {
-      id: '5',
-      category: 'programmes',
-      title: 'Siyasa ba Gaba ba',
+      id: "5",
+      category: "programmes",
+      title: "Siyasa ba Gaba ba",
       content: ``,
-      date: '26th December, 2023',
-      image: '/siyasa.jpeg',
+      date: "26th December, 2023",
+      image: "/siyasa.jpeg",
     },
     {
-      id: '6',
-      category: 'programmes',
-      title: 'Kacici Kacici',
+      id: "6",
+      category: "programmes",
+      title: "Kacici Kacici",
       content: ``,
-      date: '26th December, 2023',
-      image: '/kacici.jpeg',
+      date: "26th December, 2023",
+      image: "/kacici.jpeg",
     },
   ]);
 
   return (
-    <div className='App'>
+    <div className="App">
       <BrowserRouter>
         <DataContext.Provider value={{ news, programmes }}>
           <Routes>
@@ -556,18 +708,19 @@ He stated that the Commissioner of Police has ordered the Divisional Police Offi
             <Route path='/wase_rocktv' element={<Home />} />
             <Route path='/wase_podcast' element={<Home />} />
             <Route path='/news/:id' element={<Home />} /> */}
-            <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/waserock_93.9' element={<MobileRadio />} />
-            {<Route path='/wase_rocktv' element={<MobileTv />} />}
-            <Route path='/wase_podcast' element={<Mobilepodcast />} />
-            <Route path='/news/:id' element={<MobilenewsDetails />} />
-            <Route path='/news' element={<News />} />
-            <Route path='/programes' element={<Programes />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/waserock_93.9" element={<MobileRadio />} />
+            {<Route path="/wase_rocktv" element={<MobileTv />} />}
+            <Route path="/wase_podcast" element={<Mobilepodcast />} />
+            <Route path="/news/:id" element={<MobilenewsDetails />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/programes" element={<Programes />} />
+            <Route path="/admin" element={<Adminhome />} />
           </Routes>
         </DataContext.Provider>
       </BrowserRouter>
-      <div className='home-container'></div>
+      <div className="home-container"></div>
     </div>
   );
 }
