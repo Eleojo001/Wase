@@ -18,6 +18,36 @@ export const DataContext = React.createContext();
 function App() {
   const [news, setNews] = useState([
     {
+      id: "26",
+      category: "News",
+      title: `ALGON condemns suspension of Edo LG chairmen, councillors`,
+      author: ``,
+      content: `
+
+The Association of Local Governments of Nigeria (ALGON) on Thursday condemned in strong terms the suspension of 18 local government chairmen and councillors in Edo state by the House of Assembly.
+
+Governor Monday Okpebholo had accused the suspended chairmen of disobeying his instructions by allegedly refusing to submit their financial records to the state government.
+
+However, the ALGON’s National Executive Council (NEC) and its Board of Trustees (BoT) on Thursday jointly condemned the decision saying the governor and lawmakers did not give the council chairmen fair hearing to defend themselves.
+
+The association at an emergency meeting in Katsina state, appealed to President Bola Tinubu to intervene, emphasising the need to respect the autonomy and independence of local governments as guaranteed by the nation’s constitution and recent ruling by the Supreme Court.
+
+“ALGON views this suspension as a setback for democracy and abuse of power, particularly since the chairmen were not given a chance to defend themselves.
+
+“This suspension is invalid. It contradicts the Supreme Court’s judgment granting local governments autonomy,” the ALGON National Publicity Secretary, and Executive Chairman, Wase Local Government Area, Hon. Hamisu Anani, in a statement said.
+
+Anani stated that if the Edo State House of Assembly’s decision was right, it would not have generated criticisms across the length and breadth of the country.
+
+“This suspension is unconstitutional; it is null and void.
+
+“ALGON is hereby urging the Edo State House of Assembly to reverse the decision and respect the rule of law to strengthen democratic governance.
+
+“ALGON also appeals to President Bola Tinubu to intervene and halt this abuse of power,” the statement said.`,
+      date: "23rd December, 2024",
+      images: [{ pic: "/along.jpg" }],
+    },
+    
+    {
       id: "25",
       category: "News",
       title: `WE ARE HIRING!`,
