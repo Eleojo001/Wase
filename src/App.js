@@ -18,13 +18,26 @@ export const DataContext = React.createContext();
 function App() {
   const [news, setNews] = useState([
     {
+      id: "27",
+      category: "News",
+      title: `SOLIDARITY
+THADDEUS`,
+      author: ``,
+      content: `The Plateau state Council of Chiefs and Emirs has sent strong warning against any force that will negate the dignity and respect of the institution.
+
+Chairman of the state Council of Chiefs and Emirs, and the Gbong Gwom Jos, Da Gyang Buba, gave the warning when he led members of the Council on a solidarity visit on the Emir of Wase, Mahammadu Sambo, over a recent assault on him by one of his council members.
+
+Our Langtang zonal correspondent has details...`,
+      date: "10th January, 2025",
+      images: [{ pic: "/chiefEmir.jpeg" }],
+    },
+
+    {
       id: "26",
       category: "News",
       title: `ALGON condemns suspension of Edo LG chairmen, councillors`,
       author: ``,
-      content: `
-
-The Association of Local Governments of Nigeria (ALGON) on Thursday condemned in strong terms the suspension of 18 local government chairmen and councillors in Edo state by the House of Assembly.
+      content: `The Association of Local Governments of Nigeria (ALGON) on Thursday condemned in strong terms the suspension of 18 local government chairmen and councillors in Edo state by the House of Assembly.
 
 Governor Monday Okpebholo had accused the suspended chairmen of disobeying his instructions by allegedly refusing to submit their financial records to the state government.
 
@@ -46,7 +59,7 @@ Anani stated that if the Edo State House of Assembly’s decision was right, it 
       date: "23rd December, 2024",
       images: [{ pic: "/along.jpg" }],
     },
-    
+
     {
       id: "25",
       category: "News",
