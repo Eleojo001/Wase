@@ -1,12 +1,15 @@
 import React from 'react'
 import Navmobile from './Navmobile'
 import Mobilefooter from './Mobilefooter'
+import Nav from '../Nav';
+import SectionFive from '../SectionFive';
 
 function MobileTv() {
   return (
     <div>
-      <Navmobile />
+        <Nav />
       <div className="mobiletvholder">
+
         <div className="mobiletvstack">
           <div className="mobiletvcard">
             <a href="" target="_blank" className="mtvlink">
@@ -561,26 +564,7 @@ function MobileTv() {
           </div>
         </div>
       </div>
-      <div className="mobileFooter">
-        <div className="mobilefooterholdertv">
-          <div className="termMobiletv">
-            <li>
-              <h5>Terms/Condition</h5>
-            </li>
-            <li>
-              <h5>Contact</h5>
-              <p>081 xxxx xxxx</p>
-            </li>
-          </div>
-          <div className="mobileaddress">
-            <li>
-              <h5>Address</h5>
-              <p>Plateau, Jos</p>
-            </li>
-          </div>
-        </div>
-        <div className="Jomiah">&copy; 2023 Created by JomiahCreations</div>
-      </div>
+      <SectionFive/>
     </div>
   );
 }

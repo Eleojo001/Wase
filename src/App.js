@@ -18,6 +18,25 @@ export const DataContext = React.createContext();
 function App() {
   const [news, setNews] = useState([
     {
+      id: "28",
+      category: "News",
+      title: `Governor Caleb Mutfwang Commissions Wase Rock Broadcasting Network and Other Key Projects in Wase LGA`,
+      author: ``,
+      content: `His Excellency, Barrister Caleb Manasseh Mutfwang, the Executive Governor of Plateau State, commissioned the Wase Rock Broadcasting Network and several other significant projects spearheaded by Hon. Hamisu Anani, Chairman of Wase Local Government Council and ALGON Chairman, Plateau State. The event highlights the strong partnership between the state government and the local council in advancing development across Wase Local Government Area.
+
+Governor Mutfwang, known for his proactive approach to fostering development throughout Plateau State, praised the initiative as a landmark achievement. The Wase Rock Broadcasting Network, comprising FM radio and television services, represents a vital step toward improving communication and bridging the information gap, not only in Wase LGA but also in neighboring local government areas and states.
+
+In his remarks, Governor Mutfwang expressed delight at the monumental progress, commending Hon. Hamisu Anani and his team for their innovative leadership. Noting that the broadcast project is a great milestone in ensuring that the people of Wase and beyond have access to timely and reliable information.
+
+He further described the development trajectory under Hon. Anani’s leadership as “promising and impressive. Among the projects highlighted during the visit was the National Livestock Transformation Plan Site in Wase, which utilizes part of the Wase Game Reserve. Governor Mutfwang noted that this initiative aligns with President Bola Ahmed Tinubu’s vision to revitalize the livestock sector for rapid economic gains. “I am here to see things for myself" and to prepare to advance this frontier in collaboration with the federal government, he added.
+
+Other notable projects initiated by Hon. Hamisu Anani include the Wase Rock Broadcasting Network (FM Radio and Television Stations), the ongoing construction of Legislators’ Quarters, the acquisition of Wase LGA borehole drilling machines, the Dangi-Wase Power Project, and various infrastructural developments aimed at improving the quality of life in the area.
+
+The commissioning ceremony underscores the commitment of both the state and local administrations to deliver transformative governance and sustainable development to the people of Plateau State.`,
+      date: "3rd March, 2025",
+      images: [{ pic: "/3rdmarch25.jpeg" }],
+    },
+    {
       id: "27",
       category: "News",
       title: `SOLIDARITY
