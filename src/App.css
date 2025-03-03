@@ -500,6 +500,15 @@ margin: auto;
 .AboutMobile{
   display: none;
 }
+.destopfooter,
+.desktopnavigator {
+  display: block;
+}
+
+.mobilesfooter,
+.mobilesnavigator {
+  display: none;
+}
 @media(max-width: 500px){
   .mobile, .AboutMobile, .imageDesrip, .mobileradioHoler{
     display: block;
@@ -714,6 +723,7 @@ text-align: center;
 .mobilefooterholder{
   display: flex;
   justify-content: space-between;
+  flex-direction: column-reverse;
 }
 
 /* About section  */
@@ -813,14 +823,19 @@ width: 100%;
   display: flex;
   justify-content: space-between;
   color: white;
+  gap: 10px;
 }
 .contactIcons{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.termMobile{
   display: flex;
-  align-items: center;
+  flex-direction: column-reverse;
+  gap: 10px;
 }
-.contactIcons li{
-  margin-right: 20px;
-}
+
 .termMobiletv li{
   list-style: none;
 }
@@ -893,6 +908,13 @@ object-fit: contain;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   margin: 5px 0;
+}
+
+.destopfooter, .desktopnavigator{
+  display: none;
+}
+.mobilesfooter,.mobilesnavigator{
+  display: block;
 }
 
 }

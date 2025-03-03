@@ -7,7 +7,12 @@ import SectionFive from '../SectionFive';
 function MobileTv() {
   return (
     <div>
-      <Nav />
+      <div className="desktopnavigator">
+        <Nav />
+      </div>
+      <div className="mobilesnavigator">
+        <Navmobile />
+      </div>
       <div className="mobiletvholder">
         <div className="mobiletvstack">
           <div className="mobiletvcard">
@@ -44,7 +49,7 @@ function MobileTv() {
               <div className="mtvtitle">
                 The Plateau State Council of Chiefs and Emirs Sends Strong
                 Warnings
-            </div>
+              </div>
             </a>
           </div>
 
@@ -566,7 +571,12 @@ function MobileTv() {
           </div>
         </div>
       </div>
-      <SectionFive />
+      <div className="destopfooter">
+        <SectionFive />
+      </div>
+      <div className="mobilesfooter">
+        <Mobilefooter />
+      </div>
     </div>
   );
 }
