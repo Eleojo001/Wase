@@ -1,11 +1,13 @@
 import React from 'react'
 import Navmobile from './Navmobile'
 import Mobilefooter from './Mobilefooter'
+import Nav from '../Nav'
+import SectionFive from '../SectionFive'
 
 function Mobilepodcast() {
   return (
     <div>
-      <Navmobile/>
+      <Nav/>
       <div className="podcastContainerMob">
       <div className="mpodHolder">
         <div className="mpodimg">
@@ -14,7 +16,7 @@ function Mobilepodcast() {
         <h1>PODCAST</h1>
       </div>
       </div>
-      <Mobilefooter/>
+      <SectionFive/>
     </div>
   )
 }

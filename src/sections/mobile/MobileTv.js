@@ -7,9 +7,8 @@ import SectionFive from '../SectionFive';
 function MobileTv() {
   return (
     <div>
-        <Nav />
+      <Nav />
       <div className="mobiletvholder">
-
         <div className="mobiletvstack">
           <div className="mobiletvcard">
             <a href="" target="_blank" className="mtvlink">
@@ -34,7 +33,7 @@ function MobileTv() {
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://youtu.be/K0LxK3QUlHM?si=zdfmQpgTdxTbCwqc"
+                  src="https://www.youtube.com/embed/K0LxK3QUlHM?si=kSJfeFNkE8KPwlEF"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -42,7 +41,10 @@ function MobileTv() {
                   allowfullscreen
                 ></iframe>
               </div>
-              <div className="mtvtitle">SOLIDARITY THADDEUS</div>
+              <div className="mtvtitle">
+                The Plateau State Council of Chiefs and Emirs Sends Strong
+                Warnings
+            </div>
             </a>
           </div>
 
@@ -564,7 +566,7 @@ function MobileTv() {
           </div>
         </div>
       </div>
-      <SectionFive/>
+      <SectionFive />
     </div>
   );
 }
