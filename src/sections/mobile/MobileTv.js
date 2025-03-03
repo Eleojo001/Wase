@@ -14,6 +14,23 @@ function MobileTv() {
                 <iframe
                   width="100%"
                   height="100%"
+                  src="https://www.youtube.com/embed/IBNxHWlq--s?si=oiswlIqvYrhZwHgc"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div className="mtvtitle">Wase Rock TV Live Stream</div>
+            </a>
+          </div>
+          <div className="mobiletvcard">
+            <a href="" target="_blank" className="mtvlink">
+              <div className="mtvimg">
+                <iframe
+                  width="100%"
+                  height="100%"
                   src="https://youtu.be/K0LxK3QUlHM?si=zdfmQpgTdxTbCwqc"
                   title="YouTube video player"
                   frameborder="0"
