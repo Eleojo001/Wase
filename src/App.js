@@ -34,7 +34,7 @@ Other notable projects initiated by Hon. Hamisu Anani include the Wase Rock Broa
 
 The commissioning ceremony underscores the commitment of both the state and local administrations to deliver transformative governance and sustainable development to the people of Plateau State.`,
       date: "3rd March, 2025",
-      images: [{ pic: "/3rdmarch25.jpeg" }],
+      images: [{ pic: "/3rdmarch25.jpg" }],
     },
     {
       id: "27",
